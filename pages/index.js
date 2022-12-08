@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Link from 'next/link'
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -185,7 +186,7 @@ export default function Home() {
 
 
       <div className="max-w-[900px] mx-auto">
-      <div className="mainCont py-16 mt-[140px]">
+      <div className="mainCont pt-16 pb-0 mt-[140px]">
           <div className='heading font-[Audiowide] text-[60px] text-center'>CONTACT US</div>
 
         <form className="mt-12">
@@ -210,6 +211,8 @@ export default function Home() {
       </div>
       </div>
 
+
+      <Footer/>
 
     </div>
     </>
