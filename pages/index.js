@@ -57,13 +57,105 @@ export default function Home() {
               <div className='transition group-hover:translate-x-1'><svg width="17" height="16" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.3389 4.552L2.86287 16.028L0.977539 14.1427L12.4522 2.66667H2.33887V0H17.0055V14.6667H14.3389V4.552Z" fill="white"/></svg></div>
             </Link>
 
-
            </div>
            </div>
       </div>
       </div>
 
 
+
+
+
+      <div className="relative w-full mt-[140px]">
+      <img src="/images/engineers.png" className='w-full h-full object-cover object-center absolute top-0 left-0' alt="engineers" />
+      <div className="gradient-bg absolute top-0 left-0 w-full h-full"></div>
+      <div className="mainCont relative z-10 flex items-end h-[800px]">
+        <div className="flex items-start justify-between gap-5 w-full -translate-y-[100px]">
+          <div className='heading font-[Audiowide] text-[60px] 2xl:text-[70px] leading-[120%]'>JOIN THE<br/>ADVENTURE</div>
+           <div className='max-w-[500px]'>
+           <div className='text-[17px] leading-[24px] mt-5'>Empowering everyone by making a positive difference. We are no ordinary team.<br/><span className='text-white font-[900]'>Are you ready to join the adventure?</span></div>
+           <button className='flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-5'>APPLY NOW <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
+
+           </div>
+        </div>
+      </div>
+      </div>
+
+      <div className="bg-dark2-main w-full mt-[140px]">
+      <div className="mainCont py-16">
+           <div className='heading font-[Audiowide] text-[60px] text-center'>HISTORY</div>
+
+           <div className="mt-12 max-w-[1100px] mx-auto">
+              <div className="flex items-center justify-between gap-16">
+                <div className="rounded-full border border-white min-w-[350px] px-12 py-3.5">
+                   <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">1981 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
+                   <div>FOUNDED BY PIERRE LAJEUNESSE</div>
+                </div>
+
+                <div className='max-w-[800px] leading-[24px] text-[17px]'>Founded in 1981 by <span className='text-white font-[900]'>Pierre Lajeunesse</span>, the company was first known under the sole name of "Erivan". At that time, the company was working in civil engineering and construction of large-scale concrete jobs.</div>
+              </div>
+
+
+              <div className="mt-12 flex items-center justify-between gap-16">
+                <div className="rounded-full border border-white min-w-[350px] px-12 py-3.5">
+                   <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">1995 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
+                   <div>TELECOMMUNICATIONS LAUNCH</div>
+                </div>
+
+                <div className='max-w-[800px] leading-[24px] text-[17px]'>In 1995, <span className='text-white font-[900]'>Eric Lajeunesse</span>, one of Lajeunesse's sons, became increasingly involved in Erivan's activities. Having, himself, just gratuated in civil engineering, he helped Erivan make a judicious shift into the telecommunications field.<br/><br/>The increased skills, equiped with a solid and established experience, aligned perfectly with the high standards required by the industry.</div>
+              </div>
+
+
+
+              <div className="mt-12 flex items-center justify-between gap-16">
+                <div className="rounded-full border border-white min-w-[350px] px-12 py-3.5">
+                   <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">1999 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
+                   <div>NEW ASSOCIATES</div>
+                </div>
+
+                <div className='max-w-[800px] leading-[24px] text-[17px]'>Aiming to adapt to an extremely competitive and rapidly changing environment, the managers of Erivan decided to surround themselves with new, high-value partners: <span className='text-white font-[900]'>Martin Hince & Michel Aumais.</span><br/><br/>The specific knowledge and innovative perceptions of the latter would enhance the already recognized know-how of the company. Thus, while always staying true to the original philosophy of Erivan, now it was complemented by a stronger team.</div>
+              </div>
+
+
+
+
+              <div className="mt-12 flex items-center justify-start gap-16">
+                <div className="rounded-full bg-white border border-white min-w-[350px] px-12 py-3.5">
+                   <div className="font-[Audiowide] text-black flex items-center gap-3 text-[35px] mb-[2px]">2004 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="black"/></svg></div>
+                   <div className='text-gray-main'>ERIVAN GECOM GROUP</div>
+                </div>
+
+                <div className='max-w-[800px] leading-[36px] text-[20px]'>Thus, in <span className='text-white font-[900]'>2004</span>, the <span className='text-white font-[900]'>Erivan Gecom Group</span><br/>was officially born.</div>
+              </div>
+
+
+
+
+              <div className="mt-12 flex items-center justify-between gap-16">
+                <div className="rounded-full border border-white min-w-[350px] px-12 py-3.5">
+                   <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">2017 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
+                   <div>EXPANSION</div>
+                </div>
+
+                <div className='max-w-[800px] leading-[24px] text-[17px]'>Adapting to the ever changing industry and to offer a competitive advantage, <span className='font-[900]'>Erivan opened an office in Mississauga, ON</span> to ensure a greater visibility and infiltrating the Ontario market.</div>
+              </div>
+
+
+
+              <div className="mt-12 flex items-center justify-between gap-16">
+                <div className="rounded-full border border-white min-w-[350px] px-12 py-3.5">
+                   <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">2022 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
+                   <div>TODAY</div>
+                </div>
+
+                <div className='max-w-[800px] leading-[24px] text-[17px]'>Today, the company has now reverted back to its original name, <span className='text-white font-[900]'>Erivan</span>. For more than 30 years now, it has acquired and maintained a strong reputation in the telecommunications and construction industry.<br/><br/>Furthermore, <span className='font-[900]'>Erivan opened an office in Calgary, AB</span> thus expanding the company nationally and infiltrating the Western market.</div>
+              </div>
+
+
+
+           </div>
+      </div>
+      </div>
 
 
     </div>
