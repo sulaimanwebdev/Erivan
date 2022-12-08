@@ -1,10 +1,15 @@
-import Header from "../components/Header";
+import Head from 'next/Head'
 import Link from 'next/link'
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>Erivan</title>
+    </Head>
+
     <div className="bg-dark-main text-content-main">
       <Header/>
 
