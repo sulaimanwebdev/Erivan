@@ -158,6 +158,30 @@ export default function Home() {
       </div>
 
 
+
+
+
+
+      <div className="mainCont py-16 mt-[140px]">
+          <div className='heading font-[Audiowide] text-[60px] text-center'>OUR CUSTOMERS</div>
+
+        <div className="mt-12 flex items-center justify-evenly lg2:justify-between flex-wrap gap-6">
+           <img src="/images/logo1.png" className='w-[180px]' alt="Cogeco" />
+           <img src="/images/logo2.png" className='w-[200px]' alt="SpaceX" />
+           <img src="/images/logo3.png" className='w-[200px]' alt="Videotron" />
+           <img src="/images/logo4.png" className='w-[200px]' alt="Ericsson" />
+           <img src="/images/logo5.png" className='w-[70px]' alt="Bell" />
+           <img src="/images/logo6.png" className='w-[200px]' alt="Nokia Siemens Networks" />
+           <img src="/images/logo7.png" className='w-[200px]' alt="XPolarNet" />
+           <img src="/images/logo8.png" className='w-[200px]' alt="Telus" />
+           <img src="/images/logo9.png" className='w-[200px]' alt="Samsung" />
+           <img src="/images/logo10.png" className='w-[200px]' alt="Rogers" />
+           <img src="/images/logo11.png" className='w-[200px]' alt="Freedom Mobile" />
+        </div>
+
+      </div>
+
+
     </div>
     </>
   )

@@ -15,6 +15,10 @@ module.exports = {
         'form-main': '#232427',
         'placeholder-main': '#50545E',
         'placeholder-main': '#50545E',
+      },
+
+      screens:{
+        lg2: '1254px',
       }
     },
   },
