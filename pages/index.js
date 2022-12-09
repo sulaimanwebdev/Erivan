@@ -13,13 +13,13 @@ export default function Home() {
     <div className="bg-dark-main text-content-main">
       <Header/>
 
-      <div className="mainCont relative h-[700px] flex items-center justify-start">
-          <div>
-          <div className='heading font-[Audiowide] text-[60px] 2xl:text-[70px] leading-[120%]'>FROM DESIGN<br/>TO DELIVERY.</div>
+      <div className="mainCont relative h-[450px] sm3:h-[500px] md:h-[700px] flex items-center justify-start">
+          <div className='z-10'>
+          <div className='heading font-[Audiowide] text-[40px] sm3:text-[50px] sm:text-[60px] 2xl:text-[70px] leading-[120%]'>FROM DESIGN<br className="hidden sm3:flex"/>TO DELIVERY.</div>
           <div className='text-[19px] leading-[30px] mt-5'>Where connection meets technology.<br/>Join <span className='text-white font-[900]'>Erivan Gecom</span> in its adventure.</div>
           <button className='flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-8 py-3 mt-8'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
           </div>
-          <img src="/images/tower1.png" className='absolute top-0 right-0 h-[900px]' alt="tower" />
+          <img src="/images/tower1.png" className='absolute top-0 right-0 h-[500px] sm3:h-[600px] md:h-[900px] opacity-30 lg4:opacity-100' alt="tower" />
       </div>
 
 
