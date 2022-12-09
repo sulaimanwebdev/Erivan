@@ -171,7 +171,7 @@ export default function Home() {
           <div className='heading font-[Audiowide] text-[35px] sm4:text-[40px] sm3:text-[60px] text-center'>OUR CUSTOMERS</div>
 
         <div className="overflow-y-auto">
-        <div className="mt-12 flex items-center justify-evenly lg2:justify-between flex-wrap gap-6 min-w-[700px] md:min-w-auto">
+        <div className="mt-12 flex items-center justify-evenly lg2:justify-between flex-wrap gap-6 min-w-[800px] md:min-w-auto">
            <img src="/images/logo1.png" className='w-[180px]' alt="Cogeco" />
            <img src="/images/logo2.png" className='w-[200px]' alt="SpaceX" />
            <img src="/images/logo3.png" className='w-[200px]' alt="Videotron" />
