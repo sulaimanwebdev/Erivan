@@ -24,9 +24,9 @@ export default function Home() {
 
 
       <div className="max-w-[1200px] mx-auto mt-[150px]">
-      <div className="mainCont relative flex items-start justify-end gap-5">
+      <div className="mainCont relative flex items-start justify-end lg4:justify-between gap-5">
            <img src="/images/tower2.png" className='h-[700px] opacity-30 lg:opacity-100 absolute top-0 left-0 lg:relative lg:top-auto lg:left-auto' alt="tower" />
-           <div className='max-w-[600px] z-10 leading-[36px] lg:translate-y-[150px]'>
+           <div className='max-w-[600px] z-10 leading-[36px] sm:translate-y-[150px]'>
             <div className='text-[18px]'>Where solutions don't exist, we make them accessible and realize them. With all the new innovations, Erivan is staying ahead to serve its customers with the best experience. Erivan specializes in:</div>
            <div className="mt-10 max-w-[400px]">
             <Link href="/" className='flex items-center justify-between group gap-5'>
@@ -72,16 +72,15 @@ export default function Home() {
 
 
 
-      <div className="relative w-full mt-[140px]">
-      <img src="/images/engineers.png" className='w-full h-full object-cover object-center absolute top-0 left-0' alt="engineers" />
+      <div className="relative w-full mt-[160px] sm:mt-[350px] lg:mt-[140px]">
+      <img src="/images/engineers.png" className='w-full h-full object-cover object-center absolute top-0 left-0 opacity-60 lg4:opacity-100' alt="engineers" />
       <div className="gradient-bg absolute top-0 left-0 w-full h-full"></div>
-      <div className="mainCont relative z-10 flex items-end h-[800px]">
-        <div className="flex items-start justify-between gap-5 w-full -translate-y-[100px]">
-          <div className='heading font-[Audiowide] text-[60px] 2xl:text-[70px] leading-[120%]'>JOIN THE<br/>ADVENTURE</div>
+      <div className="mainCont relative z-10 flex items-end h-[500px] lg4:h-[800px]">
+        <div className="flex items-start flex-col lg4:flex-row lg4:justify-between gap-10 w-full -translate-y-[50px] lg4:-translate-y-[100px]">
+          <div className='heading font-[Audiowide] text-[50px] lg:text-[60px] 2xl:text-[70px] leading-[120%]'>JOIN THE<br/>ADVENTURE</div>
            <div className='max-w-[500px]'>
-           <div className='text-[17px] leading-[24px] mt-5'>Empowering everyone by making a positive difference. We are no ordinary team.<br/><span className='text-white font-[900]'>Are you ready to join the adventure?</span></div>
+           <div className='text-[17px] leading-[24px] lg:mt-5'>Empowering everyone by making a positive difference. We are no ordinary team.<br/><span className='text-white font-[900]'>Are you ready to join the adventure?</span></div>
            <button className='flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-5'>APPLY NOW <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
-
            </div>
         </div>
       </div>
