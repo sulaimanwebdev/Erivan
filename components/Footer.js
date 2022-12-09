@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
     <div className="bg-black w-full mt-[100px]">
-      <div className="mainCont py-16 flex items-start justify-between">
+      <div className="mainCont py-16 flex items-start md2:justify-between gap-14 md2:gap-0 flex-col md2:flex-row">
             <div>
                <Link href="/"><img src="/images/logo-small.svg" alt="logo" /></Link>
                 <div className="flex items-center gap-5 mt-6 mb-7">
@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
 
 
-            <div className="flex items-start gap-[150px]">
+            <div className="flex items-start flex-col md2:flex-row gap-14 md2:gap-[90px] lg4:gap-[150px]">
                 <div>
                     <div className='text-white font-[700] text-[20px] mb-5'>Pages</div>
                     <div className='flex flex-col gap-2.5'>

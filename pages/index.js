@@ -88,7 +88,7 @@ export default function Home() {
 
       <div className="bg-dark2-main w-full mt-[140px]">
       <div className="mainCont py-16">
-           <div className='heading font-[Audiowide] text-[60px] text-center'>HISTORY</div>
+           <div className='heading font-[Audiowide] text-[45px] sm3:text-[60px] text-center'>HISTORY</div>
 
            <div className="mt-12 max-w-[1100px] mx-auto">
               <div className="flex lg:items-center lg:justify-between flex-col lg:flex-row gap-10 lg:gap-16">
@@ -167,10 +167,11 @@ export default function Home() {
 
 
 
-      <div className="mainCont py-16 mt-[140px]">
-          <div className='heading font-[Audiowide] text-[60px] text-center'>OUR CUSTOMERS</div>
+      <div className="mainCont py-16 mt-[80px] sm:mt-[140px]">
+          <div className='heading font-[Audiowide] text-[35px] sm4:text-[40px] sm3:text-[60px] text-center'>OUR CUSTOMERS</div>
 
-        <div className="mt-12 flex items-center justify-evenly lg2:justify-between flex-wrap gap-6">
+        <div className="overflow-y-auto">
+        <div className="mt-12 flex items-center justify-evenly lg2:justify-between flex-wrap gap-6 min-w-[700px] md:min-w-auto">
            <img src="/images/logo1.png" className='w-[180px]' alt="Cogeco" />
            <img src="/images/logo2.png" className='w-[200px]' alt="SpaceX" />
            <img src="/images/logo3.png" className='w-[200px]' alt="Videotron" />
@@ -183,6 +184,7 @@ export default function Home() {
            <img src="/images/logo10.png" className='w-[200px]' alt="Rogers" />
            <img src="/images/logo11.png" className='w-[200px]' alt="Freedom Mobile" />
         </div>
+        </div>
       </div>
 
 
@@ -190,8 +192,8 @@ export default function Home() {
 
 
       <div className="max-w-[900px] mx-auto">
-      <div className="mainCont pt-16 pb-0 mt-[140px]">
-          <div className='heading font-[Audiowide] text-[60px] text-center'>CONTACT US</div>
+      <div className="mainCont pt-16 pb-0 mt-[80px] sm:mt-[140px]">
+          <div className='heading font-[Audiowide] text-[45px] sm3:text-[60px]  text-center'>CONTACT US</div>
 
         <form className="mt-12">
            <div>
