@@ -9,7 +9,7 @@ const Header = () => {
       <div className="mainCont py-8 flex items-center justify-between gap-3">
            <div className='flex items-center lg3:gap-14 w-full lg3:w-auto'>
             <Link href="/" className='w-fit'><img src="/images/logo.svg" className="w-[200px] lg2:w-auto" alt="logo" /> </Link>
-            <div className={`${navBar} lg3:translate-x-0 transition flex gap-7 px-[25px] z-[999] flex-col lg3:flex-row bg-dark-main lg3:bg-transparent fixed top-0 right-0 w-full sm2:w-[400px] pb-7 lg3:pb-0 pt-[92px] lg3:pt-0 border-l-2 border-gray-main lg3:border-0 overflow-y-auto max-h-screen h-screen lg3:h-auto lg3:w-auto bg- lg3:relative lg3:top-auto lg3:right-auto`}>
+            <div className={`${navBar} lg3:translate-x-0 transition flex gap-7 px-[25px] z-[999] flex-col lg3:flex-row bg-dark-main lg3:bg-transparent fixed top-0 right-0 w-full sm2:w-[400px] pb-7 lg3:pb-0 pt-[92px] lg3:pt-0 sm2:border-l-2 border-gray-main lg3:border-0 overflow-y-auto max-h-screen h-screen lg3:h-auto lg3:w-auto bg- lg3:relative lg3:top-auto lg3:right-auto`}>
              <Link href="/" className='font-semibold'>ABOUT US</Link>
              <Link href="/" className='font-semibold'>EXPERIENCES & SERVICES</Link>
              <Link href="/" className='font-semibold'>CAREERS</Link>
