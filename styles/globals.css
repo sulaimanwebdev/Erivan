@@ -16,6 +16,15 @@ body {
   /* font-family: 'Audiowide', cursive; */
 }
 
+body{
+  overflow-x: hidden;
+}
+
+#__next{
+  overflow-x: hidden;
+
+}
+
 .mainCont{
   max-width: 1400px;
   padding-left: 25px;
