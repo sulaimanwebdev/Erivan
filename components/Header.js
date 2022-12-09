@@ -51,7 +51,7 @@ const Header = () => {
            <button onClick={()=> {setnavBar('translate-x-0')}} className='flex lg3:hidden sm2:ml-2'><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg></button>
       </div>
 
-      <div onClick={()=> {setnavBar('translate-x-full')}} className={`fixed left-0 top-0 w-full h-screen bg-black bg-opacity-80 blur-lg z-[99] ${navBar === "translate-x-0" ? "flex" : "hidden"}`}></div>
+      <div onClick={()=> {setnavBar('translate-x-full')}} className={`fixed left-0 top-0 w-full h-screen bg-black bg-opacity-80 blur-lg z-[99] lg3:hidden ${navBar === "translate-x-0" ? "flex" : "hidden"}`}></div>
     </>
   )
 }
