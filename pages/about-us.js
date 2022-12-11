@@ -5,6 +5,101 @@ import Footer from "../components/Footer";
 import WorkSlider from '../components/WorkSlider';
 
 export default function About() {
+
+  let team = [
+    {
+      id: 1,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 2,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 3,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 4,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 5,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 6,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 7,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 8,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 8,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 10,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 11,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 12,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 13,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 14,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+    {
+      id: 15,
+      image: "/images/team1.png",
+      name: "ERIC LAJEUNESSE, ENG.",
+      title: "President of Erivan Gecom Group"
+    },
+   
+    
+  ]
   return (
     <>
     <Head>
@@ -56,6 +151,49 @@ export default function About() {
         <WorkSlider/>
       </div>
 
+
+      <div className="bg-dark2-main w-full mt-[140px] h-[800px]">
+      <div className="mainCont relative pt-16">
+        <img src="/images/logo12.png" className='mx-auto w-[60px] mb-6' alt="logo" />
+       <div className='heading font-[Audiowide] text-[45px] sm3:text-[60px] text-center'>OUR VALUES</div>
+
+         <div className="text-[17px] mx-auto max-w-[1100px] mt-12">Our great work ethic and irreproachable integrity are foundational to our success and for over 30 years, they have stood the test of time. Erivan sees these values as top priority.<br/><br/>In addition to that, it is primordial for Erivan to maintain a great versatility, through its multidisciplinary skills. With the aim to maintain strong, fruitful and long-lasting relationship, Erivan gives the utmost care to all clients and partners by treating each task with equal attention, regardless of the size or complexity of the project.<br/><br/><span className='text-white font-[900]'>Finally,</span> in order to always  offer its customers smart solutions and better alternatives, Erivan constantly strives to demonstrate an innovative appraoch to all of its challenges.</div>
+
+      </div>
+
+         <div className="mainCont w-full mx-auto mt-[100px]">
+          <img src="/images/our-values.png" className='grayscale w-full' alt="our-values" />
+        </div>
+      </div>
+
+
+
+
+      <div className="mainCont flex items-center justify-between gap-6 mt-[433px]">
+        <div className='heading font-[Audiowide] text-[50px] leading-[120%]'>OUR<br/> MISSION</div>
+        <div className='text-[19px] leading-[38px] max-w-[890px]'><span className='font-[900]'>Erivan</span> wants to distinguish itself in all its fields of operations, through an irreproachable work ethic and integrity. Thus acquiring the recognition of the industry, as a loyal and trustworthy business partner.</div>
+      </div>
+
+
+
+      <div className="mainCont mt-[180px]">
+       <div className='heading font-[Audiowide] text-[45px] sm3:text-[60px] text-center'>OUR TEAM</div>
+        <div className="grid grid-cols-4 gap-7 mt-5">
+           {
+            team.map((ele) =>{
+              return(
+                <div key={ele.id} className='bg-form-main'>
+                <img src={ele.image} className='w-full grayscale' alt="team" />
+                <div className="text-center py-5 px-3">
+                   <div className='text-white font-bold text-[17px]'>{ele.name}</div>
+                   <div className='mt-2'>{ele.title}</div>
+                </div>
+              </div>
+              )
+            })
+           }
+        </div>
+       </div>
 
 
       <Footer/>
