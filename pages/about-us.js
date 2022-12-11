@@ -52,7 +52,7 @@ export default function About() {
 
 
 
-      <div className="mainCont relative mt-[140px]">
+      <div className="mainCont mt-[140px]">
         <WorkSlider/>
       </div>
 

@@ -91,7 +91,7 @@ const WorkSlider = () => {
             },
           }}
           slidesPerView={3.2}
-          spaceBetween={20}
+          spaceBetween={25}
           rewind={true}
           pagination={{
             clickable: true,
