@@ -31,9 +31,19 @@ export default function ExperiencesServices() {
 
       <div className="mainCont flex md:justify-between flex-col md:flex-row gap-6 mt-[140px]">
         <div className='heading font-[Audiowide] text-[40px] sm3:text-[60px] leading-[120%] uppercase'>The experience<br/> that makes the<br/> difference</div>
-        <div className='text-[17px] leading-[30px] max-w-[600px]'>Well established in the telecommunications industry, Erivan  has cutting-edge expertise in civil engineering and project design.<br/><br/>Our specialized team, mainly composed of professional engineers graduates who are subject to a rigorous code of ethics, operates according to procedures recognized by the industry.<br/><br/>Our experience to direct our efforts towards optimal efficiency, in order to ensure full compliance with costs and schedule for each project,while preserving the safety of the public, customers and employees, is why our customers and partners love us!</div>
+        <div className='text-[17px] leading-[30px] max-w-[600px]'>Well established in the telecommunications industry, <span className='text-white font-[900]'>Erivan</span> has cutting-edge expertise in civil engineering and project design.<br/><br/>Our specialized team, mainly composed of professional engineers graduates who are subject to a rigorous code of ethics, operates according to procedures recognized by the industry.<br/><br/>Our experience to direct our efforts towards optimal efficiency, in order to ensure full compliance with costs and schedule for each project,while preserving the safety of the public, customers and employees, is why our customers and partners love us!</div>
       </div>
 
+      <div className="mainCont relative my-[50px] w-full h-[400px]">
+        <img src="/images/engineers2.png" className='grayscale w-full h-full object-cover object-center rounded-[16px]' alt="engineers" />
+        <img src="/images/logo.svg" className='w-[250px] absolute bottom-[30px] right-[50px] z-10' alt="logo" />
+      </div>
+
+      <div className="mainCont flex items-center justify-between gap-16">
+       <img src="/images/logo12.png" className='w-[60px]' alt="logo" />
+       <div className='text-[17px] leading-[30px]'>With its general contractor’s license, <span className='text-white font-[900]'>Erivan</span> is equipped with a qualified, committed, and passionate team, always in continuous training, and which remains at the cutting edge of industry standards.<br/><br/>Under the federal jurisdiction, the company is accredited by the main operators in the Canadian market, and therefore authorized to carry out public and institutional contracts in the vast majority of Canadian provinces, and even some American states. <span className='text-white font-[900]'>Erivan</span> thus aims to be a one-stop-shop for the design and implementation of all types of projects.</div>
+
+      </div>
 
 
       <Footer/>
