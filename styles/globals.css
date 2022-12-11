@@ -48,3 +48,7 @@ body{
 .gradient-bg2{
   background: linear-gradient(180deg, #101113 0%, rgba(16, 17, 19, 0.72) 50%, #101113 100%);
 }
+
+.card-gradient{
+  background: radial-gradient(32.95% 80.34% at 2.01% 0%, #64676C 0%, #18191C 100%);
+}

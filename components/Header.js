@@ -10,11 +10,11 @@ const Header = () => {
            <div className='flex items-center lg3:gap-14 w-full lg3:w-auto'>
             <Link href="/" className='w-fit'><img src="/images/logo.svg" className="w-[200px] lg2:w-auto" alt="logo" /> </Link>
             <div className={`${navBar} lg3:translate-x-0 transition flex gap-7 px-[25px] z-[999] flex-col lg3:flex-row bg-dark-main lg3:bg-transparent fixed top-0 right-0 w-full sm2:w-[400px] pb-7 lg3:pb-0 pt-[92px] lg3:pt-0 sm2:border-l-2 border-content-main lg3:border-0 overflow-y-auto max-h-screen h-screen lg3:h-auto lg3:w-auto bg- lg3:relative lg3:top-auto lg3:right-auto`}>
-             <Link href="/about-us" className='font-semibold'>ABOUT US</Link>
-             <Link href="/experiences-&-services" className='font-semibold'>EXPERIENCES & SERVICES</Link>
-             <Link href="/careers" className='font-semibold'>CAREERS</Link>
-             <Link href="/our-involvement" className='font-semibold'>OUR INVOLVEMENT</Link>
-             <Link href="/contact-us" className='font-semibold'>CONTACT</Link>
+             <Link href="/about-us" className={`font-semibold ${window.location.pathname === "/about-us" ? "text-white" : ""}`}>ABOUT US</Link>
+             <Link href="/experiences-&-services" className={`font-semibold ${window.location.pathname === "/experiences-&-services" ? "text-white" : ""}`}>EXPERIENCES & SERVICES</Link>
+             <Link href="/careers" className={`font-semibold ${window.location.pathname === "/careers" ? "text-white" : ""}`}>CAREERS</Link>
+             <Link href="/our-involvement" className={`font-semibold ${window.location.pathname === "/our-involvement" ? "text-white" : ""}`}>OUR INVOLVEMENT</Link>
+             <Link href="/contact-us" className={`font-semibold ${window.location.pathname === "/contact-us" ? "text-white" : ""}`}>CONTACT</Link>
 
              <div className="flex sm2:hidden items-center gap-5">
                <div className="flex items-center gap-1 text-white">
