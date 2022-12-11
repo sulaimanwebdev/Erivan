@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import WorkSlider from '../components/WorkSlider';
 
 export default function About() {
   return (
@@ -51,12 +52,8 @@ export default function About() {
 
 
 
-      <div className="mainCont mt-[140px]">
-        <div className="flex items-center justify-between gap-5">
-        <div className='heading font-[Audiowide] text-[45px] leading-[120%]'>SEE OUR WORK</div>
-
-        </div>
-
+      <div className="mainCont relative mt-[140px]">
+        <WorkSlider/>
       </div>
 
 
