@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import WorkSlider from '../components/WorkSlider';
 
 export default function ExperiencesServices() {
 
