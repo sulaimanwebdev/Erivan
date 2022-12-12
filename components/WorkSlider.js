@@ -22,42 +22,42 @@ const WorkSlider = () => {
     let data = [
       {
         id: 1,
-        image: "/images/slider1.svg",
+        image: "/images/slider1.png",
         text: "CENTRE BELL",
         link: "/",
       },
 
       {
         id: 2,
-        image: "/images/slider2.svg",
+        image: "/images/slider2.png",
         text: "MONTREAL CASINO",
         link: "/",
       },
 
       {
         id: 3,
-        image: "/images/slider3.svg",
+        image: "/images/slider3.png",
         text: "BTS VERDUN",
         link: "/",
       },
 
       {
         id: 4,
-        image: "/images/slider1.svg",
+        image: "/images/slider1.png",
         text: "CENTRE BELL",
         link: "/",
       },
 
       {
         id: 5,
-        image: "/images/slider2.svg",
+        image: "/images/slider2.png",
         text: "MONTREAL CASINO",
         link: "/",
       },
 
       {
         id: 6,
-        image: "/images/slider3.svg",
+        image: "/images/slider3.png",
         text: "BTS VERDUN",
         link: "/",
       },
