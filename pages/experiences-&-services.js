@@ -39,7 +39,7 @@ export default function ExperiencesServices() {
       </div>
 
       <div className="mainCont flex items-center justify-between gap-16">
-       <img src="/images/logo12.png" className='w-[60px]' alt="logo" />
+       <img src="/images/logo12.svg" className='w-[60px]' alt="logo" />
        <div className='text-[17px] leading-[30px]'>With its general contractor’s license, <span className='text-white font-[900]'>Erivan</span> is equipped with a qualified, committed, and passionate team, always in continuous training, and which remains at the cutting edge of industry standards.<br/><br/>Under the federal jurisdiction, the company is accredited by the main operators in the Canadian market, and therefore authorized to carry out public and institutional contracts in the vast majority of Canadian provinces, and even some American states. <span className='text-white font-[900]'>Erivan</span> thus aims to be a one-stop-shop for the design and implementation of all types of projects.</div>
       </div>
 
