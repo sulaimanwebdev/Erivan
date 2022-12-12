@@ -8,91 +8,91 @@ export default function About() {
   let team = [
     {
       id: 1,
-      image: "/images/team1.png",
+      image: "/images/team1.svg",
       name: "ERIC LAJEUNESSE, ENG.",
       title: "President of Erivan Gecom Group"
     },
     {
       id: 2,
-      image: "/images/team2.png",
+      image: "/images/team2.svg",
       name: "MARTIN HINCE, ENG.",
       title: "VP Operations – Associate"
     },
     {
       id: 3,
-      image: "/images/team3.png",
+      image: "/images/team3.svg",
       name: "FRANÇOIS GAGNÉ, ENG.",
       title: "CEO Ontario & Western branch"
     },
     {
       id: 4,
-      image: "/images/team4.png",
+      image: "/images/team4.svg",
       name: "MICHEL AUMAIS",
       title: "Project Manager - Associate"
     },
     {
       id: 5,
-      image: "/images/team5.png",
+      image: "/images/team5.svg",
       name: "JONATHAN SAUVAGEAU, ENG.",
       title: "Project Manager – Major accounts"
     },
     {
       id: 6,
-      image: "/images/team6.png",
+      image: "/images/team6.svg",
       name: "OLIVIER LAJEUNESSE, ENG.",
       title: "Project Manager – Major accounts"
     },
     {
       id: 7,
-      image: "/images/team7.png",
+      image: "/images/team7.svg",
       name: "JONATHAN BERTHIAUME",
       title: "Project Manager – Major accounts"
     },
     {
       id: 8,
-      image: "/images/team8.png",
+      image: "/images/team8.svg",
       name: "BENJAMIN GRIMES, ENG.",
       title: "Project Manager – Major accounts"
     },
     {
       id: 8,
-      image: "/images/team9.png",
+      image: "/images/team9.svg",
       name: "ANTOINE BRODEUR, CPI",
       title: "Project Manager"
     },
     {
       id: 10,
-      image: "/images/team10.png",
+      image: "/images/team10.svg",
       name: "MATTHEW FALKINER",
       title: "Director of Operations – Ontario"
     },
     {
       id: 11,
-      image: "/images/team11.png",
+      image: "/images/team11.svg",
       name: "SAMUEL PLANTE",
       title: "Project Manager"
     },
     {
       id: 12,
-      image: "/images/team12.png",
+      image: "/images/team12.svg",
       name: "NIKOLA PETROVIC",
       title: "Health and safety coordinator"
     },
     {
       id: 13,
-      image: "/images/team13.png",
+      image: "/images/team13.svg",
       name: "MARIE-ANDRÉE SÉVIGNY",
       title: "Administrative Manager"
     },
     {
       id: 14,
-      image: "/images/team12.png",
+      image: "/images/team12.svg",
       name: "PASCALE CALLENDER",
       title: "HR Manager"
     },
     {
       id: 15,
-      image: "/images/team12.png",
+      image: "/images/team12.svg",
       name: "GERMAN LANDO",
       title: "Director of Operations - Alberta"
     },
@@ -110,7 +110,7 @@ export default function About() {
 
     
       <div className="relative w-full"> 
-      <img src="/images/about.png" className='w-full h-full object-cover object-center absolute top-0 left-0' alt="about" />
+      <img src="/images/tower-bottom.svg" className='w-full h-full object-cover object-center absolute top-0 left-0' alt="about" />
       <div className="w-full h-full object-cover object-center absolute top-0 left-0 z-10 flex items-center justify-center"><img src="/images/lines.svg" alt="lines" /></div>
       <div className="gradient-bg2 absolute top-0 left-0 w-full h-full"></div>
       <div className="mainCont relative z-10 flex items-center justify-center flex-col text-center h-auto py-[80px]">
@@ -134,7 +134,7 @@ export default function About() {
 
         <div className="bg-dark2-main rounded-[24px] p-6 lg5:max-w-[550px] lg5:min-w-[550px]">
           <div className="relative w-full h-full flex items-center justify-center">
-          <img src="/images/video.png" alt="video" />
+          <img src="/images/video.svg" alt="video" />
           <button className='bg-dark-main rounded-full flex items-center justify-center min-w-[60px] min-h-[60px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10'><svg width="19" height="20" className='translate-x-[2px]' viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 14.4641C21.1667 12.9245 21.1667 9.0755 18.5 7.5359L6.5 0.607693C3.83333 -0.931908 0.5 0.992596 0.5 4.0718V17.9282C0.5 21.0074 3.83333 22.9319 6.5 21.3923L18.5 14.4641Z" fill="white"/></svg></button>
           </div>
 
@@ -153,7 +153,7 @@ export default function About() {
 
       <div className="bg-dark2-main pb-12 sm3:pb-0 w-full mt-[140px] sm3:h-[850px] sm5:h-[800px]">
       <div className="mainCont relative pt-16">
-        <img src="/images/logo12.png" className='mx-auto w-[60px] mb-6' alt="logo" />
+        <img src="/images/logo12.svg" className='mx-auto w-[60px] mb-6' alt="logo" />
        <div className='heading font-[Audiowide] text-[40px] sm:text-[60px] text-center'>OUR VALUES</div>
 
          <div className="text-[17px] mx-auto max-w-[1100px] mt-8 sm:mt-12">Our great work ethic and irreproachable integrity are foundational to our success and for over 30 years, they have stood the test of time. Erivan sees these values as top priority.<br/><br/>In addition to that, it is primordial for Erivan to maintain a great versatility, through its multidisciplinary skills. With the aim to maintain strong, fruitful and long-lasting relationship, Erivan gives the utmost care to all clients and partners by treating each task with equal attention, regardless of the size or complexity of the project.<br/><br/><span className='text-white font-[900]'>Finally,</span> in order to always  offer its customers smart solutions and better alternatives, Erivan constantly strives to demonstrate an innovative appraoch to all of its challenges.</div>
@@ -161,7 +161,7 @@ export default function About() {
       </div>
 
          <div className="mainCont w-full mx-auto mt-[40px] sm3:mt-[100px]">
-          <img src="/images/our-values.png" className='grayscale w-full' alt="our-values" />
+          <img src="/images/our-values.svg" className='grayscale w-full' alt="our-values" />
         </div>
       </div>
 

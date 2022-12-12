@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="max-w-[1200px] mx-auto mt-[150px]">
       <div className="mainCont relative flex items-start justify-end lg4:justify-between gap-5">
-           <img src="/images/tower2.png" className='h-[700px] opacity-30 lg:opacity-100 absolute top-0 left-0 lg:relative lg:top-auto lg:left-auto' alt="tower" />
+           <img src="/images/tower2.svg" className='h-[700px] opacity-30 lg:opacity-100 absolute top-0 left-0 lg:relative lg:top-auto lg:left-auto' alt="tower" />
            <div className='max-w-[600px] z-10 leading-[36px] sm:translate-y-[150px]'>
             <div className='text-[18px]'>Where solutions don't exist, we make them accessible and realize them. With all the new innovations, Erivan is staying ahead to serve its customers with the best experience. Erivan specializes in:</div>
            <div className="mt-10 max-w-[400px]">
@@ -73,7 +73,7 @@ export default function Home() {
 
 
       <div className="relative w-full mt-[160px] sm:mt-[350px] lg:mt-[140px]">
-      <img src="/images/engineers.png" className='w-full h-full object-cover object-center absolute top-0 left-0 opacity-60 lg4:opacity-100' alt="engineers" />
+      <img src="/images/engineers.svg" className='w-full h-full object-cover object-center absolute top-0 left-0 opacity-60 lg4:opacity-100' alt="engineers" />
       <div className="gradient-bg absolute top-0 left-0 w-full h-full"></div>
       <div className="mainCont relative z-10 flex items-end h-[500px] lg4:h-[800px]">
         <div className="flex items-start flex-col lg4:flex-row lg4:justify-between gap-6 sm3:gap-10 w-full -translate-y-[50px] lg4:-translate-y-[100px]">
@@ -172,17 +172,17 @@ export default function Home() {
 
         <div className="overflow-y-auto">
         <div className="mt-12 flex items-center justify-evenly lg2:justify-between flex-wrap gap-6 min-w-[800px] md:min-w-auto">
-           <img src="/images/logo1.png" className='w-[180px]' alt="Cogeco" />
-           <img src="/images/logo2.png" className='w-[200px]' alt="SpaceX" />
-           <img src="/images/logo3.png" className='w-[200px]' alt="Videotron" />
-           <img src="/images/logo4.png" className='w-[200px]' alt="Ericsson" />
-           <img src="/images/logo5.png" className='w-[70px]' alt="Bell" />
-           <img src="/images/logo6.png" className='w-[200px]' alt="Nokia Siemens Networks" />
-           <img src="/images/logo7.png" className='w-[200px]' alt="XPolarNet" />
-           <img src="/images/logo8.png" className='w-[200px]' alt="Telus" />
-           <img src="/images/logo9.png" className='w-[200px]' alt="Samsung" />
-           <img src="/images/logo10.png" className='w-[200px]' alt="Rogers" />
-           <img src="/images/logo11.png" className='w-[200px]' alt="Freedom Mobile" />
+           <img src="/images/logo1.svg" className='w-[180px]' alt="Cogeco" />
+           <img src="/images/logo2.svg" className='w-[200px]' alt="SpaceX" />
+           <img src="/images/logo3.svg" className='w-[200px]' alt="Videotron" />
+           <img src="/images/logo4.svg" className='w-[200px]' alt="Ericsson" />
+           <img src="/images/logo5.svg" className='w-[70px]' alt="Bell" />
+           <img src="/images/logo6.svg" className='w-[200px]' alt="Nokia Siemens Networks" />
+           <img src="/images/logo7.svg" className='w-[200px]' alt="XPolarNet" />
+           <img src="/images/logo8.svg" className='w-[200px]' alt="Telus" />
+           <img src="/images/logo9.svg" className='w-[200px]' alt="Samsung" />
+           <img src="/images/logo10.svg" className='w-[200px]' alt="Rogers" />
+           <img src="/images/logo11.svg" className='w-[200px]' alt="Freedom Mobile" />
         </div>
         </div>
       </div>
