@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation, Pagination } from 'swiper';
-import Image from 'next/image'
 
 const WorkSlider = () => {
 
@@ -134,13 +133,7 @@ const WorkSlider = () => {
               >
                 <div>
                   <Link href={ele.link}>
-                  <Image
-      src={ele.image}
-      alt="cover"
-      height={230}
-      width={600}
-      className='grayscale h-[230px] w-full object-cover object-center rounded-[14px]'
-      />
+                      <img src={ele.image} className='grayscale h-[230px] w-full object-cover object-center rounded-[14px]' alt="cover" />
                       <div className="flex items-center justify-between mt-2">
                       <div className='text-white font-[500] text-[19px] leading-[36px]'>{ele.text}</div>
                       <div><svg width="15" height="14" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.3389 4.552L2.86287 16.028L0.977539 14.1427L12.4522 2.66667H2.33887V0H17.0055V14.6667H14.3389V4.552Z" fill="white"/></svg></div>
