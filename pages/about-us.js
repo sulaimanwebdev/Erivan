@@ -153,7 +153,7 @@ export default function About() {
 
       <div className="bg-dark2-main pb-12 sm3:pb-0 w-full mt-[140px] sm3:h-[850px] sm5:h-[800px]">
       <div className="mainCont relative pt-16">
-        <img src="/images/logo12.png" className='mx-auto w-[60px] mb-6' alt="logo" />
+        <img src="/images/logo12.svg" className='mx-auto w-[60px] mb-6' alt="logo" />
        <div className='heading font-[Audiowide] text-[40px] sm:text-[60px] text-center'>OUR VALUES</div>
 
          <div className="text-[17px] mx-auto max-w-[1100px] mt-8 sm:mt-12">Our great work ethic and irreproachable integrity are foundational to our success and for over 30 years, they have stood the test of time. Erivan sees these values as top priority.<br/><br/>In addition to that, it is primordial for Erivan to maintain a great versatility, through its multidisciplinary skills. With the aim to maintain strong, fruitful and long-lasting relationship, Erivan gives the utmost care to all clients and partners by treating each task with equal attention, regardless of the size or complexity of the project.<br/><br/><span className='text-white font-[900]'>Finally,</span> in order to always  offer its customers smart solutions and better alternatives, Erivan constantly strives to demonstrate an innovative appraoch to all of its challenges.</div>
