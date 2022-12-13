@@ -6,7 +6,7 @@ const Header = () => {
   const [navBar, setnavBar] = useState('translate-x-full')
   return (
     <>
-      <div className="mainCont relative z-50 py-8 flex items-center justify-between gap-3">
+      <div className="mainCont relative z-[50] py-8 flex items-center justify-between gap-3">
            <div className='flex items-center lg3:gap-14 w-full lg3:w-auto'>
             <Link href="/" className='w-fit'><img src="/images/logo.svg" className="w-[200px] lg2:w-auto" alt="logo" /> </Link>
             <div className={`${navBar} lg3:translate-x-0 transition flex gap-7 px-[25px] z-[999] flex-col lg3:flex-row bg-dark-main lg3:bg-transparent fixed top-0 right-0 w-full sm2:w-[400px] pb-7 lg3:pb-0 pt-[92px] lg3:pt-0 sm2:border-l-2 border-content-main lg3:border-0 overflow-y-auto max-h-screen h-screen lg3:h-auto lg3:w-auto bg- lg3:relative lg3:top-auto lg3:right-auto`}>
@@ -49,9 +49,10 @@ const Header = () => {
            </div>
 
            <button onClick={()=> {setnavBar('translate-x-0')}} className='flex lg3:hidden sm2:ml-2'><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg></button>
+           <div onClick={()=> {setnavBar('translate-x-full')}} className={`fixed left-0 top-0 w-full h-screen bg-black bg-opacity-80 blur-lg z-[99] lg3:hidden ${navBar === "translate-x-0" ? "flex" : "hidden"}`}></div>
+      
       </div>
 
-      <div onClick={()=> {setnavBar('translate-x-full')}} className={`fixed left-0 top-0 w-full h-screen bg-black bg-opacity-80 blur-lg z-[99] lg3:hidden ${navBar === "translate-x-0" ? "flex" : "hidden"}`}></div>
     </>
   )
 }
