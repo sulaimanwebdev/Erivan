@@ -55,7 +55,7 @@ export default function About() {
       title: "Project Manager – Major accounts"
     },
     {
-      id: 8,
+      id: 9,
       image: "/images/team9.png",
       name: "ANTOINE BRODEUR, CPI",
       title: "Project Manager"
@@ -134,7 +134,7 @@ export default function About() {
 
         <div className="bg-dark2-main rounded-[24px] p-6 lg5:max-w-[550px] lg5:min-w-[550px]">
           <div className="relative w-full h-full flex items-center justify-center">
-          <img src="/images/video.png" alt="video" />
+          <img src="/images/video.png" className='mx-auto w-full max-w-[600px]' alt="video" />
           <button className='bg-dark-main rounded-full flex items-center justify-center min-w-[60px] min-h-[60px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10'><svg width="19" height="20" className='translate-x-[2px]' viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 14.4641C21.1667 12.9245 21.1667 9.0755 18.5 7.5359L6.5 0.607693C3.83333 -0.931908 0.5 0.992596 0.5 4.0718V17.9282C0.5 21.0074 3.83333 22.9319 6.5 21.3923L18.5 14.4641Z" fill="white"/></svg></button>
           </div>
 
