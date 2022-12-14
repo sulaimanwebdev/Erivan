@@ -53,7 +53,7 @@ export default function ExperiencesServices() {
       </div>
 
 
-      <div className="mainCont py-16 mt-[80px] md:mt-[140px]">
+      <div className="mainCont mt-[100px] md:mt-[140px]">
           <div className='heading font-[Audiowide] text-[35px] sm4:text-[40px] sm3:text-[60px] text-center'>OUR SERVICES</div>
           <div className="mt-16">
             <img src="/images/logo12.svg" className='mb-7 w-[35px]' alt="logo" />
