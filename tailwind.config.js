@@ -17,12 +17,18 @@ module.exports = {
       },
 
       screens:{
+        sm8: '626px',
+        sm7: '600px',
+        sm6: '424px',
         sm5: '533px',
         sm4: '376px',
         sm3: '471px',
         sm2: '500px',
+        md4: '846px',
         md3: '730px',
         md2: '790px',
+        lg7: '1188px',
+        lg6: '1294px',
         lg5: '1065px',
         lg4: '944px',
         lg3: '1210px',
