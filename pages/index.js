@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
+import Fade from 'react-reveal/Fade';
 export default function Home() {
   return (
     <>
@@ -14,18 +14,27 @@ export default function Home() {
       <Header/>
 
       <div className="mainCont relative h-[450px] sm3:h-[500px] md:h-[700px] flex items-center justify-start">
+      <Fade left>
           <div className='z-10'>
           <div className='heading font-[Audiowide] text-[40px] sm3:text-[50px] sm:text-[60px] 2xl:text-[70px] leading-[120%]'>FROM DESIGN<br className="hidden sm3:flex"/>TO DELIVERY.</div>
           <div className='text-[19px] leading-[30px] mt-5'>Where connection meets technology.<br/>Join <span className='text-white font-[900]'>Erivan Gecom</span> in its adventure.</div>
           <button className='flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-8 py-3 mt-8'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
           </div>
+        </Fade>
+          <Fade right>
           <img src="/images/tower1.png" className='absolute top-0 right-0 h-[500px] sm3:h-[600px] md:h-[900px] opacity-30 lg4:opacity-100' alt="tower" />
+          </Fade>
+     
       </div>
 
 
       <div className="max-w-[1200px] mx-auto mt-[150px]">
       <div className="mainCont relative flex items-start justify-end lg4:justify-between gap-5">
+          <Fade left>
            <img src="/images/tower2.png" className='h-[700px] opacity-30 lg:opacity-100 absolute top-0 left-0 lg:relative lg:top-auto lg:left-auto' alt="tower" />
+           </Fade>
+          <Fade right>
+
            <div className='max-w-[600px] z-10 leading-[36px] sm:translate-y-[150px]'>
             <div className='text-[18px]'>Where solutions don't exist, we make them accessible and realize them. With all the new innovations, Erivan is staying ahead to serve its customers with the best experience. Erivan specializes in:</div>
            <div className="mt-10 max-w-[400px]">
@@ -65,6 +74,8 @@ export default function Home() {
 
            </div>
            </div>
+           </Fade>
+
       </div>
       </div>
 
@@ -76,6 +87,7 @@ export default function Home() {
       <img src="/images/engineers.png" className='w-full h-full object-cover object-center absolute top-0 left-0 opacity-60 lg4:opacity-100' alt="engineers" />
       <div className="gradient-bg absolute top-0 left-0 w-full h-full"></div>
       <div className="mainCont relative z-10 flex items-end h-[500px] lg4:h-[800px]">
+      <Fade bottom>
         <div className="flex items-start flex-col lg4:flex-row lg4:justify-between gap-6 sm3:gap-10 w-full -translate-y-[50px] lg4:-translate-y-[100px]">
           <div className='heading font-[Audiowide] text-[43px] sm3:text-[50px] lg:text-[60px] 2xl:text-[70px] leading-[120%]'>JOIN THE <br className='hidden sm3:flex'/>ADVENTURE</div>
            <div className='max-w-[500px]'>
@@ -83,12 +95,15 @@ export default function Home() {
            <button className='flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-5'>APPLY NOW <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
            </div>
         </div>
+        </Fade>
+
       </div>
       </div>
 
       <div className="bg-dark2-main w-full mt-[140px]">
       <div className="mainCont py-16">
            <div className='heading font-[Audiowide] text-[45px] sm3:text-[60px] text-center'>HISTORY</div>
+           <Fade bottom>
 
            <div className="mt-12 max-w-[1100px] mx-auto">
               <div className="flex lg:items-center lg:justify-between flex-col lg:flex-row gap-10 lg:gap-16">
@@ -159,6 +174,8 @@ export default function Home() {
 
 
            </div>
+      </Fade>
+
       </div>
       </div>
 
@@ -169,6 +186,7 @@ export default function Home() {
 
       <div className="mainCont py-16 mt-[80px] sm:mt-[140px]">
           <div className='heading font-[Audiowide] text-[35px] sm4:text-[40px] sm3:text-[60px] text-center'>OUR CUSTOMERS</div>
+          <Fade bottom>
 
         <div className="overflow-y-auto">
         <div className="mt-12 flex items-center justify-evenly lg2:justify-between flex-wrap gap-6 min-w-[800px] md:min-w-auto">
@@ -185,6 +203,8 @@ export default function Home() {
            <img src="/images/logo11.png" className='w-[200px]' alt="Freedom Mobile" />
         </div>
         </div>
+        </Fade>
+
       </div>
 
 
@@ -194,6 +214,7 @@ export default function Home() {
       <div className="max-w-[900px] mx-auto">
       <div className="mainCont pt-16 pb-0 mt-[80px] sm:mt-[140px]">
           <div className='heading font-[Audiowide] text-[45px] sm3:text-[60px]  text-center'>CONTACT US</div>
+          <Fade bottom>
 
         <form className="mt-12">
            <div>
@@ -214,9 +235,12 @@ export default function Home() {
            <button type="submit" className='mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-10 py-3 mt-5'>SUBMIT <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
 
         </form>
+        </Fade>
+
       </div>
       </div>
 
+      
 
       <Footer/>
 
