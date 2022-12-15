@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Head from 'next/head'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -12,25 +13,25 @@ let team = [
     },
     {
       id: 2,
-      image: "/images/athena-worker.png",
+      image: "/images/manager.png",
       title: "Project Manager",
       desc: "Project Managers carry out the planning and preparation of timelines (schedules) in collaboration with the worksite coordinator. They manage the entire coordination of projects that have been attributed to them and are their responsibility. They check plans and contracts in order to ensure that they are in good order and conform to norms."
     },
     {
       id: 3,
-      image: "/images/athena-worker.png",
+      image: "/images/worker.png",
       title: "Construction worker",
       desc: "...."
     },
     {
       id: 4,
-      image: "/images/athena-worker.png",
+      image: "/images/carpenter.png",
       title: "Carpenter",
       desc: "Carpenters build shelters for telecommunications equipment as well as office space. They carry out all general construction tasks, including renovation and carpentry, as well as installation of specialized wall covering."
     },
     {
       id: 5,
-      image: "/images/athena-worker.png",
+      image: "/images/clerk.png",
       title: "Warehouse clerk",
       desc: "Warehouse clerks are responsible for all activities and functions related to general warehouse work, contributing to the efficiency of the department by carrying out order preparation, handling, and verification, as well as seeing to the loading and unloading of trucks."
     }
@@ -98,21 +99,23 @@ let team = [
 
       <div className="mainCont mt-[130px] md:mt-[180px]">
        <div className='heading font-[Audiowide] text-[40px] sm3:text-[60px] text-center'>POSITIONS AVAILABLE</div>
-        <div className="grid grid-cols-1 sm2:grid-cols-2 md:grid-cols-3 gap-7 mt-10">
+        <div className="relative grid grid-cols-1 sm8:grid-cols-2 lg4:grid-cols-3 gap-7 mt-10">
            {
             team.map((ele) =>{
               return(
                 <div key={ele.id} className='bg-form-main relative'>
-                <img src={ele.image} className='w-full h-[250px] object-cover object-top sm2:h-auto grayscale' alt="team" />
+                <img src={ele.image} className='w-full  max-h-[200px] lg4:max-h-[250px] object-cover object-center sm2:h-auto grayscale' alt="team" />
                 <div className="py-5 pb-[120px] px-3">
                    <div className='text-white font-bold text-[18px]'>{ele.title}</div>
                    <div className='mt-2 text-[15px]'>{ele.desc}</div>
-                   <button className='absolute bottom-[22px] left-[12px] flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
+                   <Link href="/" className='absolute bottom-[22px] left-[12px] flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></Link>
                 </div>
               </div>
               )
             })
            }
+
+           <div className="flex items-center justify-center"><img src="/images/tower2.png" className='h-[550px] -mb-[100px]' alt="tower" /></div>
         </div>
        </div>
 
