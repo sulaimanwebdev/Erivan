@@ -55,14 +55,13 @@ let team = [
           <div className='heading font-[Audiowide] text-[50px] sm3:text-[60px] sm:text-[70px] leading-[120%]'>CAREERS</div>
            <div className='max-w-[900px]'>
            <div className='text-[20px] leading-[36px] mt-5 text-white'>Are you passionated by modern solutions and evolution? We are looking for hardworking, motivated individuals driven by a sense of innovation! Are you ready for an adventure?</div>
-           <div className='font-[Audiowide] text-[28px] my-8 leading-[120%] text-white'>Founded in 1981</div>
-           <button className='mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-5'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
+           <button className='mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-8'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
            </div>
       </div>
       </div>
 
-      <div className="mainCont mt-[140px] flex items-center justify-between gap-5">
-         <img src="/images/careers2.png" className='grayscale w-[500px]' alt="careers" />
+      <div className="mainCont mt-[100px] lg4:mt-[140px] flex lg4:items-center lg4:justify-between flex-col-reverse lg4:flex-row gap-10">
+         <img src="/images/careers2.png" className='grayscale h-[450px] xl:h-[500px] object-cover rounded-[16px]' alt="careers" />
          <div className='max-w-[700px]'>
          <img src="/images/logo12.svg" className='mb-4 w-[45px]' alt="logo" />
          <div className='heading font-[Audiowide] text-[50px] sm3:text-[60px] leading-[120%]'>PAID<br/> TRAINING</div>
@@ -73,13 +72,14 @@ let team = [
 
 
 
-      <div className="bg-dark2-main pb-12 sm3:pb-0 w-full mt-[140px] sm3:h-[850px] sm5:h-[800px]">
+      <div className="bg-dark2-main pb-12 sm:pb-0 w-full mt-[140px] sm:h-[800px]">
       <div className="mainCont relative pt-16">
-         <div className="flex items-start justify-between gap-5">
-          <div className='heading font-[Audiowide] text-[60px] leading-[120%] uppercase'>Starting Off<br/> Your<br/> Professional<br/> Career?</div>
-          <img src="/images/careers3.png" className='grayscale w-[600px]' alt="careers" />
+         <div className="flex items-start lg4:justify-between flex-col lg4:flex-row gap-5">
+          <div className='heading font-[Audiowide] text-[40px] md5:text-[50px] lg3:text-[60px] leading-[120%] uppercase'>Starting Off<br className='hidden lg3:flex'/> Your<br className='hidden lg3:flex'/> Professional<br className='hidden lg3:flex'/> Career?</div>
+          <img src="/images/careers3.png" className='grayscale max-w-[450px] lg3:max-w-[600px] hidden lg4:flex' alt="careers" />
          </div>
          <div className="mt-6 text-[18px] max-w-[1200px]">Join a team dedicated to large-scale projects with local and international impact. Discover a culture that values going the extra mile by providing the support and encouragement you need to do meaningful work that has a real significance on your community.</div>
+     
       </div>
 
          <div className="mainCont w-full mx-auto mt-[40px] sm3:mt-[100px]">
@@ -87,18 +87,18 @@ let team = [
         </div>
       </div>
 
-      <div className="mainCont mt-[100px] sm3:mt-[31%] sm:mt-[36%] md3:mt-[30%] lg3:mt-[200px]">
-        <div className="mx-auto max-w-[1200px]">
-        <div className='heading font-[Audiowide] text-[40px] sm3:text-[50px] leading-[120%] uppercase'>Inspired by Difference, Motivated by Inclusion</div>
-        <div className='text-[19px] mt-6'>Discover a forward-thinking culture that doesn’t shy away from traditional qualities like respect, integrity and trust.</div>
-        <div className='text-[19px] mt-5'>Erivan welcomes every perspective, strength, talent, belief or gender with open arms. Because when they come together, they produce extraordinary results.</div>
+      <div className="mainCont mt-[60px] lg4:mt-[160px] lg3:mt-[200px]">
+        <div className="mx-auto lg4:max-w-[1200px]">
+        <div className='heading font-[Audiowide] text-[30px] sm:text-[40px] md2:text-[50px] leading-[120%] uppercase'>Inspired by Difference, Motivated by Inclusion</div>
+        <div className='text-[16px] sm:text-[19px] mt-6'>Discover a forward-thinking culture that doesn’t shy away from traditional qualities like respect, integrity and trust.</div>
+        <div className='text-[16px] sm:text-[19px] mt-5'>Erivan welcomes every perspective, strength, talent, belief or gender with open arms. Because when they come together, they produce extraordinary results.</div>
         </div>
       </div>
 
 
 
       <div className="mainCont mt-[130px] md:mt-[180px]">
-       <div className='heading font-[Audiowide] text-[40px] sm3:text-[60px] text-center'>POSITIONS AVAILABLE</div>
+       <div className='heading font-[Audiowide] text-[40px] md3:text-[50px] md4:text-[60px] text-center'>POSITIONS AVAILABLE</div>
         <div className="relative grid grid-cols-1 sm8:grid-cols-2 lg4:grid-cols-3 gap-7 mt-10">
            {
             team.map((ele) =>{
@@ -115,7 +115,7 @@ let team = [
             })
            }
 
-           <div className="flex items-center justify-center"><img src="/images/tower2.png" className='h-[550px] -mb-[100px]' alt="tower" /></div>
+           <div className="hidden sm8:flex items-center justify-center"><img src="/images/tower2.png" className='h-[550px] -mb-[100px]' alt="tower" /></div>
         </div>
        </div>
 

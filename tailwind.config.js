@@ -24,6 +24,7 @@ module.exports = {
         sm4: '376px',
         sm3: '471px',
         sm2: '500px',
+        md5: '986px',
         md4: '846px',
         md3: '730px',
         md2: '790px',
