@@ -62,7 +62,7 @@ let team = [
 
       <div className="mainCont mt-[100px] lg4:mt-[140px] flex lg4:items-center lg4:justify-between flex-col-reverse lg4:flex-row gap-10">
          <img src="/images/careers2.png" className='grayscale h-[450px] xl:h-[500px] object-cover rounded-[16px]' alt="careers" />
-         <div className='max-w-[700px]'>
+         <div className='lg4:max-w-[700px]'>
          <img src="/images/logo12.svg" className='mb-4 w-[45px]' alt="logo" />
          <div className='heading font-[Audiowide] text-[50px] sm3:text-[60px] leading-[120%]'>PAID<br/> TRAINING</div>
          <div className="mt-3 text-[17px] leading-[29px]">Are you looking for good working conditions, job stability and a reputable company to wrok for? Join an ever-growing team and benefit from salary increase. If you're versatile and like manual work, you are in luck. We are starting our recruitment process to scale the team. Come make a difference at Erivan!</div>
