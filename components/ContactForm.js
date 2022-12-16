@@ -9,12 +9,12 @@ const ContactForm = () => {
             <input type="text" placeholder='Enter your name' autoComplete="off" name="name" id="name" className='bg-form-main placeholder-placeholder-main font-[500] text-white px-3.5 py-3 w-full rounded-lg' />
            </div>
 
-           <div className='mt-5'>
+           <div className='mt-7'>
             <label htmlFor="email" className='text-white font-[600] mb-2 flex'>Your email</label>
             <input type="email" placeholder='Enter your email' autoComplete="off" name="email" id="email" className='bg-form-main placeholder-placeholder-main font-[500] text-white px-3.5 py-3 w-full rounded-lg' />
            </div>
 
-           <div className='mt-5'>
+           <div className='mt-7'>
             <label htmlFor="message" className='text-white font-[600] mb-2 flex'>Your Message or comment</label>
             <textarea type="message" placeholder='Enter your Message or comment' autoComplete="off" name="message" id="message" className='bg-form-main resize-none min-h-[150px] placeholder-placeholder-main font-[500] text-white px-3.5 py-3 w-full rounded-lg'></textarea>
            </div>
