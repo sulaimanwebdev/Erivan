@@ -84,7 +84,7 @@ const CausesSlider = () => {
   return (
     <>
    <div className="flex items-center justify-between gap-6 mb-12">
-   <div className='heading font-[Audiowide] text-[30px] sm3:text-[35px] sm:text-[45px] leading-[120%]'>OTHER CAUSES</div>
+   <div className='heading font-[Audiowide] text-[30px] sm:text-[45px] leading-[120%]'>OTHER CAUSES</div>
     <div className="flex items-center gap-3">
       <div ref={navigationPrevRef} className='flex items-center justify-center w-[45px] h-[45px] border-2 border-white rounded-full cursor-pointer'><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.828 7.50005H16V9.50005H3.828L9.192 14.864L7.778 16.278L0 8.50005L7.778 0.722046L9.192 2.13605L3.828 7.50005Z" fill="white"/></svg></div>
       <div ref={navigationNextRef} className='flex items-center justify-center w-[45px] h-[45px] border-2 border-white rounded-full cursor-pointer'><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 7.50005L6.808 2.13605L8.222 0.722046L16 8.50005L8.222 16.278L6.808 14.864L12.172 9.50005H0V7.50005H12.172Z" fill="white"/></svg></div>
@@ -96,10 +96,10 @@ const CausesSlider = () => {
             0: {
               slidesPerView: 1,
             },
-            450: {
+            465: {
               slidesPerView: 2,
             },
-            635: {
+            689: {
               slidesPerView: 3,
             },
             952: {
