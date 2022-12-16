@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import CausesSlider from '../components/CausesSlider';
 
 export default function OurInvolvement() {
 
@@ -50,7 +51,21 @@ export default function OurInvolvement() {
     
 
 
-        . 
+        <div className="mainCont flex items-start justify-between gap-6 mt-[140px]">
+            <div className='max-w-[700px]'>
+                <img src="/images/logo13.svg" alt="logo" />
+                <div className="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod elit massa, sit amet facilisis sem vulputate non.</div>
+                <div className="mt-3">Aliquam erat volutpat. Nunc et turpis pharetra, luctus dui vel, sodales turpis. Nam placerat ligula quam, ut rutrum nisi varius in. Proin pellentesque erat a eros molestie, a ultrices felis hendrerit. Nunc quis felis dolor.</div>
+            </div>
+            <img src="/images/involment1.png" className='grayscale w-[500px]' alt="involment" />
+        </div>
+
+
+
+        <div className="mainCont mt-[120px] lg5:mt-[140px] mb-[150px]">
+        <CausesSlider/>
+        </div>
+
 
       <Footer/>
 
