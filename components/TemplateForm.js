@@ -7,7 +7,7 @@ const TemplateForm = () => {
     <form>
          <div className="">
          <label htmlFor="first-name" className='text-white font-[600] mb-2 flex'>Your name <span className='text-[#FF5757] ml-[2px]'>*</span></label>
-           <div className="grid grid-cols-2 gap-5">
+           <div className="grid grid-cols-2 gap-3 sm9:gap-5">
            <div>
             <input type="text" placeholder='First name' autoComplete="off" name="first-name" id="first-name" className='bg-form-main placeholder-placeholder-main font-[500] text-white px-3.5 py-3 w-full rounded-lg' />
            </div>
