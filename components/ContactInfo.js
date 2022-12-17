@@ -26,7 +26,7 @@ const ContactInfo = () => {
 
             <div className='flex items-start gap-6 border-b border-gray-main pb-6 mt-6'>
                 <div className='translate-y-[2px]'><svg width="25" height="21" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.00033 0H26.0003C26.3539 0 26.6931 0.140476 26.9431 0.390524C27.1932 0.640573 27.3337 0.979711 27.3337 1.33333V22.6667C27.3337 23.0203 27.1932 23.3594 26.9431 23.6095C26.6931 23.8595 26.3539 24 26.0003 24H2.00033C1.6467 24 1.30756 23.8595 1.05752 23.6095C0.807468 23.3594 0.666992 23.0203 0.666992 22.6667V1.33333C0.666992 0.979711 0.807468 0.640573 1.05752 0.390524C1.30756 0.140476 1.6467 0 2.00033 0ZM24.667 5.65067L14.0963 15.1173L3.33366 5.62133V21.3333H24.667V5.65067ZM4.01499 2.66667L14.0817 11.5493L24.003 2.66667H4.01499Z" fill="white"/></svg></div>
-                <div className='text-[17px] leading-[24px]'>admin@erivan-gecom.com</div>
+                <a href='mailto:admin@erivan-gecom.com' className='flex text-[17px] leading-[24px]'>admin@erivan-gecom.com</a>
             </div>
 
 
