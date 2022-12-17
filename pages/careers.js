@@ -48,7 +48,7 @@ let team = [
       <Header/>
 
       <div className="relative w-full"> 
-      <img src="/images/careers.png" className='grayscale w-full h-full object-cover object-center absolute top-0 left-0' alt="about" />
+      <img src="/images/careers.png" className='grayscale w-full h-full object-cover object-center absolute top-0 left-0' alt="cover" />
       <div className="w-full h-full object-cover object-center absolute top-0 left-0 z-10 flex items-center justify-center"><img src="/images/lines.svg" alt="lines" /></div>
       <div className="gradient-bg2 absolute top-0 left-0 w-full h-full"></div>
       <div className="mainCont relative z-10 flex items-center justify-center flex-col text-center h-auto py-[80px]">
@@ -108,7 +108,7 @@ let team = [
                 <div className="py-5 pb-[120px] px-3">
                    <div className='text-white font-bold text-[18px]'>{ele.title}</div>
                    <div className='mt-2 text-[15px]'>{ele.desc}</div>
-                   <Link href="/" className='absolute bottom-[22px] left-[12px] flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></Link>
+                   <Link href="/warehouse-clek" className='absolute bottom-[22px] left-[12px] flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></Link>
                 </div>
               </div>
               )

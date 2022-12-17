@@ -15,7 +15,7 @@ export default function ExperiencesServices() {
 
     
       <div className="relative w-full"> 
-      <img src="/images/tower-bottom.png" className='w-full h-full object-cover object-center absolute top-0 left-0' alt="about" />
+      <img src="/images/tower-bottom.png" className='w-full h-full object-cover object-center absolute top-0 left-0' alt="cover" />
       <div className="w-full h-full object-cover object-center absolute top-0 left-0 z-10 flex items-center justify-center"><img src="/images/lines.svg" alt="lines" /></div>
       <div className="gradient-bg2 absolute top-0 left-0 w-full h-full"></div>
       <div className="mainCont relative z-10 flex items-center justify-center flex-col text-center h-auto py-[80px]">
