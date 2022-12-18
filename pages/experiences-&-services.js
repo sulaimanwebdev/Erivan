@@ -29,9 +29,9 @@ export default function ExperiencesServices() {
       </div>
 
 
-      <div className="mainCont flex md:justify-between flex-col lg7:flex-row gap-6 mt-[100px] lg7:mt-[140px]">
+      <div className="mainCont flex md:justify-center flex-col lg7:flex-row gap-6 xl:gap-12 mt-[100px] lg7:mt-[140px]">
         <div className='heading font-[Audiowide] text-[30px] sm3:text-[40px] sm7:text-[50px] lg6:text-[60px] leading-[120%] uppercase'>The experience<br className='hidden lg6:flex'/> that makes the<br/> difference</div>
-        <div className='text-[17px] leading-[30px] max-w-[800px] lg7:max-w-[600px]'>Well established in the telecommunications industry, <span className='text-white font-[900]'>Erivan</span> has cutting-edge expertise in civil engineering and project design.<br/><br/>Our specialized team, mainly composed of professional engineers graduates who are subject to a rigorous code of ethics, operates according to procedures recognized by the industry.<br/><br/>Our experience to direct our efforts towards optimal efficiency, in order to ensure full compliance with costs and schedule for each project,while preserving the safety of the public, customers and employees, is why our customers and partners love us!</div>
+        <div className='text-[17px] leading-[30px] lg7:max-w-[600px]'>Well established in the telecommunications industry, <span className='text-white font-[900]'>Erivan</span> has cutting-edge expertise in civil engineering and project design.<br/><br/>Our specialized team, mainly composed of professional engineers graduates who are subject to a rigorous code of ethics, operates according to procedures recognized by the industry.<br/><br/>Our experience to direct our efforts towards optimal efficiency, in order to ensure full compliance with costs and schedule for each project,while preserving the safety of the public, customers and employees, is why our customers and partners love us!</div>
       </div>
 
       <div className="mainCont relative my-[50px] w-full h-[400px]">

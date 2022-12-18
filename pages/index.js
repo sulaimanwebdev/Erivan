@@ -18,7 +18,7 @@ export default function Home() {
       <Header/>
 
       <div className="mainCont relative h-[450px] sm3:h-[500px] md:h-[700px] flex items-center justify-start">
-          <div className='z-10'>
+          <div className='z-10 lg:translate-x-20'>
           <div className='heading font-[Audiowide] text-[40px] sm3:text-[50px] sm:text-[60px] 2xl:text-[70px] leading-[120%]'>FROM DESIGN<br className="hidden sm3:flex"/>TO DELIVERY.</div>
           <div className='text-[19px] leading-[30px] mt-5'>Where connection meets technology.<br/>Join <span className='text-white font-[900]'>Erivan Gecom</span> in its adventure.</div>
           <button className='flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-8 py-3 mt-8'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
@@ -28,9 +28,9 @@ export default function Home() {
 
 
       <div className="max-w-[1200px] mx-auto mt-[150px]">
-      <div className="mainCont relative flex items-start justify-end lg4:justify-between gap-5">
+      <div className="mainCont relative flex items-center justify-end lg4:justify-between gap-5">
            <img src="/images/tower2.png" className='h-[700px] opacity-30 lg:opacity-100 absolute top-0 left-0 lg:relative lg:top-auto lg:left-auto' alt="tower" />
-           <div className='max-w-[600px] z-10 leading-[36px] sm:translate-y-[150px]'>
+           <div className='max-w-[600px] z-10 leading-[36px] sm:-translate-y-[20px]'>
             <div className='text-[18px]'>Where solutions don't exist, we make them accessible and realize them. With all the new innovations, Erivan is staying ahead to serve its customers with the best experience. Erivan specializes in:</div>
            <div className="mt-10 max-w-[400px]">
             <Link href="/" className='flex items-center justify-between group gap-5'>

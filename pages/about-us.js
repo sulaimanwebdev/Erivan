@@ -127,7 +127,7 @@ export default function About() {
 
 
 
-      <div className="mainCont mt-[100px] lg5:mt-[140px] flex items-start flex-col lg5:flex-row justify-between gap-12 lg5:gap-6">
+      <div className="mainCont mt-[100px] lg5:mt-[140px] flex items-start flex-col lg5:flex-row justify-center gap-12 xl:gap-[100px] lg5:gap-6">
         <div className='lg5:max-w-[600px]'>
         <div className='heading font-[Audiowide] text-[45px] sm3:text-[55px] lg3:text-[60px] leading-[120%]'>MORE ON<br className='hidden sm3:flex'/> OUR STORY</div>
          <div className='leading-[30px] text-[17px] mt-10'>The founder's determination to offer Erivan's client an experience that surpasses their own expectations quickly became a trademark of the company. Going above and beyond for each job, Mr. Lajeunesse's values were succesfully transmitted to his successors and became a requirement for his collaborators.<br/><br/>Furthermore, as a visionary leader, Mr. Lajeunsse's forward-thinking allowed him to remain open to learning and exploring new field of operation, thus allowing the company to constantly evolve while preserving an unblemished reputation, without ever compromising its intrinsic values.<br/><br/>In fact, when <span className='font-bold'>Eric Lajeunesse</span>, one of Mr. Lajeunesse's sons, became increasingly involved in Erivan's activities, he lead Erivan in making a judicious shift into the telecommunications field.<br/><br/>Thanks to the increased skills, along with a solid and established experience, Erivan was able to match the high standards required by the industry. </div>
@@ -169,9 +169,9 @@ export default function About() {
 
 
 
-      <div className="mainCont flex md:items-center md:justify-between flex-col md:flex-row gap-6 md:gap-12 mt-[100px] sm3:mt-[31%] sm:mt-[36%] md3:mt-[30%] lg3:mt-[433px]">
+      <div className="mainCont flex md:items-center md:justify-center flex-col md:flex-row gap-6 xl:gap-14 md:gap-12 mt-[100px] sm3:mt-[31%] sm:mt-[36%] md3:mt-[30%] lg3:mt-[433px]">
         <div className='heading font-[Audiowide] text-[40px] sm3:text-[50px] leading-[120%]'>OUR<br className='hidden md:flex'/> MISSION</div>
-        <div className='text-[19px] leading-[38px] max-w-[890px]'><span className='font-[900]'>Erivan</span> wants to distinguish itself in all its fields of operations, through an irreproachable work ethic and integrity. Thus acquiring the recognition of the industry, as a loyal and trustworthy business partner.</div>
+        <div className='text-[20px] leading-[38px] max-w-[890px]'><span className='font-[900]'>Erivan</span> wants to distinguish itself in all its fields of operations, through an irreproachable work ethic and integrity. Thus acquiring the recognition of the industry, as a loyal and trustworthy business partner.</div>
       </div>
 
 
