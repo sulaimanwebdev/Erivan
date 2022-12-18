@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import WorkSlider from '../components/WorkSlider';
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function About() {
 
@@ -198,6 +199,9 @@ export default function About() {
       <Footer/>
 
     </div>
+
+    <ScrollToTop/>
+
     </>
   )
 }

@@ -3,8 +3,11 @@ import Link from 'next/link'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ContactForm from '../components/ContactForm';
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function Home() {
+
+
   return (
     <>
     <Head>
@@ -205,6 +208,8 @@ export default function Home() {
       <Footer/>
 
     </div>
+
+    <ScrollToTop/>
     </>
   )
 }

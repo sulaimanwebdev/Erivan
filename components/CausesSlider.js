@@ -147,9 +147,9 @@ const CausesSlider = () => {
                 className='transition rounded-lg block overflow-hidden relative'
               >
                 <div className='flex items-center justify-center flex-col text-center'>
-                  <img src={ele.image} alt="logo" />
-                    <div className='text-white font-[600] text-[18px] mt-3'>{ele.title}</div>
-                    <div classNamem='mt-2'>{ele.date}</div>
+                  <img src={ele.image} alt="logo" className='select-none' />
+                    <div className='text-white font-[600] text-[18px] mt-3 select-none'>{ele.title}</div>
+                    <div classNamem='mt-2 select-none'>{ele.date}</div>
                 </div>
               </SwiperSlide>
             );

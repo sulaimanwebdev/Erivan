@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import ContactInfo from '../components/ContactInfo';
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function ContactUs() {
 
@@ -66,6 +67,9 @@ export default function ContactUs() {
       <Footer/>
 
     </div>
+
+    <ScrollToTop/>
+
     </>
   )
 }

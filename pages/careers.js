@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function Careers() {
 let team = [
@@ -124,6 +125,9 @@ let team = [
       <Footer/>
 
     </div>
+
+    <ScrollToTop/>
+
     </>
   )
 }

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import CausesSlider from '../components/CausesSlider';
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function OurInvolvement() {
 
@@ -69,6 +70,9 @@ export default function OurInvolvement() {
       <Footer/>
 
     </div>
+
+    <ScrollToTop/>
+
     </>
   )
 }
