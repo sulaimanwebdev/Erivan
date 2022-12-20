@@ -7,9 +7,10 @@ const Header = () => {
   return (
     <>
       <div className="mainCont relative z-[50] py-8 flex items-center justify-between gap-3">
-           <div className='flex items-center lg3:gap-14 w-full lg3:w-auto'>
+           <div className='flex items-center lg9:gap-6 lg8:gap-14 w-full lg9:w-auto'>
             <Link href="/" className='w-fit'><img src="/images/logo.svg" className="w-[200px] lg2:w-auto" alt="logo" /> </Link>
-            <div className={`${navBar} lg3:translate-x-0 transition flex gap-7 px-[25px] z-[999] flex-col lg3:flex-row bg-dark-main lg3:bg-transparent fixed top-0 right-0 w-full sm2:w-[400px] pb-7 lg3:pb-0 pt-[92px] lg3:pt-0 sm2:border-l-2 border-content-main lg3:border-0 overflow-y-auto max-h-screen h-screen lg3:h-auto lg3:w-auto bg- lg3:relative lg3:top-auto lg3:right-auto`}>
+            <div className={`${navBar} lg9:translate-x-0 transition flex gap-7 px-[25px] z-[999] flex-col lg9:flex-row bg-dark-main lg9:bg-transparent fixed top-0 right-0 w-full sm2:w-[400px] pb-7 lg9:pb-0 pt-[92px] lg9:pt-0 sm2:border-l-2 border-content-main lg9:border-0 overflow-y-auto max-h-screen h-screen lg9:h-auto lg9:w-auto bg- lg9:relative lg9:top-auto lg9:right-auto`}>
+             <Link href="/" className={`font-semibold ${typeof window !== "undefined" ? window.location.pathname === "/" ? "text-white" : "" : ""}`}>HOME</Link>
              <Link href="/about-us" className={`font-semibold ${typeof window !== "undefined" ? window.location.pathname === "/about-us" ? "text-white" : "" : ""}`}>ABOUT US</Link>
              <Link href="/experiences-&-services" className={`font-semibold ${typeof window !== "undefined" ? window.location.pathname === "/experiences-&-services" ? "text-white" : "" : ""}`}>EXPERIENCES & SERVICES</Link>
              <Link href="/careers" className={`font-semibold ${typeof window !== "undefined" ? window.location.pathname === "/careers" ? "text-white" : "" : ""}`}>CAREERS</Link>
@@ -30,7 +31,7 @@ const Header = () => {
                </div>
            </div>
 
-             <button onClick={()=> {setnavBar('translate-x-full')}} className="flex lg3:hidden absolute top-[30px] right-[25px]"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-x" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg></button>
+             <button onClick={()=> {setnavBar('translate-x-full')}} className="flex lg9:hidden absolute top-[30px] right-[25px]"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-x" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/></svg></button>
             </div>
            </div>
 
@@ -48,8 +49,8 @@ const Header = () => {
                </div>
            </div>
 
-           <button onClick={()=> {setnavBar('translate-x-0')}} className='flex lg3:hidden sm2:ml-2'><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16"><path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg></button>
-           <div onClick={()=> {setnavBar('translate-x-full')}} className={`fixed left-0 top-0 w-full h-screen bg-black bg-opacity-80 blur-lg z-[99] lg3:hidden ${navBar === "translate-x-0" ? "flex" : "hidden"}`}></div>
+           <button onClick={()=> {setnavBar('translate-x-0')}} className='flex lg9:hidden sm2:ml-2'><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16"><path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg></button>
+           <div onClick={()=> {setnavBar('translate-x-full')}} className={`fixed left-0 top-0 w-full h-screen bg-black bg-opacity-80 blur-lg z-[99] lg9:hidden ${navBar === "translate-x-0" ? "flex" : "hidden"}`}></div>
       
       </div>
 

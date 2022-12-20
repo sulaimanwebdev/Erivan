@@ -95,7 +95,7 @@ export default function Home() {
            <div className='heading font-[Audiowide] text-[45px] sm3:text-[60px] text-center'>HISTORY</div>
 
            <div className="mt-12 max-w-[1100px] mx-auto">
-              <div className="flex lg:items-center lg:justify-between flex-col lg:flex-row gap-10 lg:gap-16">
+              <div className="flex lg:items-center lg:justify-between flex-col lg:flex-row gap-6 lg:gap-16">
                 <div className="rounded-full border border-white sm3:min-w-[350px] px-12 py-3.5">
                    <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">1981 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
                    <div>FOUNDED BY PIERRE LAJEUNESSE</div>
@@ -105,7 +105,7 @@ export default function Home() {
               </div>
 
 
-              <div className="mt-[88px] lg:mt-12 flex lg:items-center lg:justify-between flex-col lg:flex-row gap-10 lg:gap-16">
+              <div className="mt-[50px] lg:mt-12 flex lg:items-center lg:justify-between flex-col lg:flex-row gap-6 lg:gap-16">
                 <div className="rounded-full border border-white sm3:min-w-[350px] px-12 py-3.5">
                    <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">1995 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
                    <div>TELECOMMUNICATIONS LAUNCH</div>
@@ -116,7 +116,7 @@ export default function Home() {
 
 
 
-              <div className="mt-[88px] lg:mt-12 flex lg:items-center lg:justify-between flex-col lg:flex-row gap-10 lg:gap-16">
+              <div className="mt-[50px] lg:mt-12 flex lg:items-center lg:justify-between flex-col lg:flex-row gap-6 lg:gap-16">
                 <div className="rounded-full border border-white sm3:min-w-[350px] px-12 py-3.5">
                    <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">1999 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
                    <div>NEW ASSOCIATES</div>
@@ -128,19 +128,19 @@ export default function Home() {
 
 
 
-              <div className="mt-[88px] lg:mt-12 flex lg:items-center lg:justify-start flex-col lg:flex-row gap-10 lg:gap-16">
+              <div className="mt-[50px] lg:mt-12 flex lg:items-center lg:justify-start flex-col lg:flex-row gap-6 lg:gap-16">
                 <div className="rounded-full bg-white border border-white sm3:min-w-[350px] px-12 py-3.5">
                    <div className="font-[Audiowide] text-black flex items-center gap-3 text-[35px] mb-[2px]">2004 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="black"/></svg></div>
                    <div className='text-gray-main'>ERIVAN GECOM GROUP</div>
                 </div>
 
-                <div className='max-w-[800px] leading-[36px] text-[20px] mx-3 lg:mx-0'>Thus, in <span className='text-white font-[900]'>2004</span>, the <span className='text-white font-[900]'>Erivan Gecom Group</span><br/>was officially born.</div>
+                <div className='max-w-[800px] leading-[36px] text-[20px] mx-3 lg:mx-0'>Thus, in <span className='text-white font-[900]'>2004</span>, the <span className='text-white font-[900]'>Erivan Gecom Group</span><br className='hidden lg:flex'/> was officially born.</div>
               </div>
 
 
 
 
-              <div className="mt-[88px] lg:mt-12 flex lg:items-center lg:justify-between flex-col lg:flex-row gap-10 lg:gap-16">
+              <div className="mt-[50px] lg:mt-12 flex lg:items-center lg:justify-between flex-col lg:flex-row gap-6 lg:gap-16">
                 <div className="rounded-full border border-white sm3:min-w-[350px] px-12 py-3.5">
                    <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">2017 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
                    <div>EXPANSION</div>
@@ -151,7 +151,7 @@ export default function Home() {
 
 
 
-              <div className="mt-[88px] lg:mt-12 flex lg:items-center lg:justify-between flex-col lg:flex-row gap-10 lg:gap-16">
+              <div className="mt-[50px] lg:mt-12 flex lg:items-center lg:justify-between flex-col lg:flex-row gap-6 lg:gap-16">
                 <div className="rounded-full border border-white sm3:min-w-[350px] px-12 py-3.5">
                    <div className="font-[Audiowide] text-white flex items-center gap-3 text-[35px] mb-[2px]">2022 <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.4534 14.3387L0.976074 2.86266L2.86141 0.977325L14.3374 12.452V2.33866H17.0041V17.0053H2.33741V14.3387H12.4534Z" fill="white"/></svg></div>
                    <div>TODAY</div>

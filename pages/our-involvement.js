@@ -51,7 +51,7 @@ export default function OurInvolvement() {
     
 
 
-        <div className="mainCont flex items-start lg4:justify-between flex-col lg4:flex-row gap-10 lg4:gap-6 mt-[100px] lg4:mt-[140px]">
+        {/* <div className="mainCont flex items-start lg4:justify-between flex-col lg4:flex-row gap-10 lg4:gap-6 mt-[100px] lg4:mt-[140px]">
             <div className='lg4:max-w-[700px]'>
                 <img src="/images/logo13.svg" alt="logo" />
                 <div className="mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod elit massa, sit amet facilisis sem vulputate non.</div>
@@ -59,7 +59,7 @@ export default function OurInvolvement() {
             </div>
             <img src="/images/involment1.png" className='grayscale w-full lg4:w-[500px]' alt="involment" />
         </div>
-
+ */}
 
 
         <div className="mainCont mt-[120px] lg5:mt-[140px] mb-[150px]">

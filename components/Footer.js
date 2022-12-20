@@ -20,6 +20,7 @@ const Footer = () => {
                 <div>
                     <div className='text-white font-[700] text-[20px] mb-5'>Pages</div>
                     <div className='flex flex-col gap-2.5'>
+                      <Link href="/" className='text-[15px]'>Home</Link>
                       <Link href="/about-us" className='text-[15px]'>About Us</Link>
                       <Link href="/experiences-&-services" className='text-[15px]'>Experiences & Services</Link>
                       <Link href="/careers" className='text-[15px]'>Careers</Link>

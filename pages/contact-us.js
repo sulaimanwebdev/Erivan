@@ -32,8 +32,8 @@ export default function ContactUs() {
 
 
       <div className="mainCont mt-[100px] lg4:mt-[140px] flex lg4:items-center lg4:justify-center flex-col-reverse lg4:flex-row gap-10 lg4:gap-20">
-         <img src="/images/tower4.png" className='grayscale h-[450px] xl:h-[650px] object-cover rounded-[16px]' alt="tower" />
-         <div className='lg4:max-w-[500px]'>
+         <img src="/images/tower4.png" className='grayscale lg4:h-[450px] xl:h-[650px] object-cover rounded-[16px]' alt="tower" />
+         <div className='lg4:max-w-[500px] lg4:translate-y-[70px] xl:translate-y-[120px]'>
          <img src="/images/logo12.svg" className='mb-4 w-[45px]' alt="logo" />
          <div className="mt-7 text-[21px] font-[500] leading-[29px]">We are committed to remaining accessible to our customers. We want to be able to answer your questions and allay your concerns, in addition to listening to your needs and comments.</div>
          <div className="mt-5 text-[21px] font-[500] leading-[29px]">Help us to maintain our level of excellence, and to surpass ourselves again!</div>

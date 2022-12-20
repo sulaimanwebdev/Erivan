@@ -66,20 +66,20 @@ let team = [
          <div className='lg4:max-w-[700px]'>
          <img src="/images/logo12.svg" className='mb-4 w-[45px]' alt="logo" />
          <div className='heading font-[Audiowide] text-[50px] sm3:text-[60px] leading-[120%]'>PAID<br/> TRAINING</div>
-         <div className="mt-3 text-[17px] leading-[29px]">Are you looking for good working conditions, job stability and a reputable company to wrok for? Join an ever-growing team and benefit from salary increase. If you're versatile and like manual work, you are in luck. We are starting our recruitment process to scale the team. Come make a difference at Erivan!</div>
+         <div className="mt-3 text-[20px] leading-[36px]">Are you looking for good working conditions, job stability and a reputable company to wrok for? Join an ever-growing team and benefit from salary increase. If you're versatile and like manual work, you are in luck. We are starting our recruitment process to scale the team. Come make a difference at Erivan!</div>
           
          </div>
       </div>
 
 
 
-      <div className="bg-dark2-main pb-12 sm:pb-0 w-full mt-[140px] sm:h-[800px]">
+      <div className="bg-dark2-main pb-[20px] sm:pb-0 w-full mt-[140px] sm:h-[800px]">
       <div className="mainCont relative pt-16">
          <div className="flex items-start lg4:justify-between flex-col lg4:flex-row gap-5">
           <div className='heading font-[Audiowide] text-[40px] md5:text-[50px] lg3:text-[60px] leading-[120%] uppercase'>Starting Off<br className='hidden lg3:flex'/> Your<br className='hidden lg3:flex'/> Professional<br className='hidden lg3:flex'/> Career?</div>
           <img src="/images/careers3.png" className='grayscale max-w-[450px] lg3:max-w-[600px] hidden lg4:flex' alt="careers" />
          </div>
-         <div className="mt-6 text-[18px] max-w-[1200px]">Join a team dedicated to large-scale projects with local and international impact. Discover a culture that values going the extra mile by providing the support and encouragement you need to do meaningful work that has a real significance on your community.</div>
+         <div className="mt-6 text-[18px] md:text-[22px] max-w-[1200px]">Join a team dedicated to large-scale projects with local and international impact. Discover a culture that values going the extra mile by providing the support and encouragement you need to do meaningful work that has a real significance on your community.</div>
      
       </div>
 
@@ -88,11 +88,11 @@ let team = [
         </div>
       </div>
 
-      <div className="mainCont mt-[60px] lg4:mt-[160px] lg3:mt-[200px]">
+      <div className="mainCont mt-[20px] sm:mt-[60px] lg4:mt-[180px] lg3:mt-[250px]">
         <div className="mx-auto lg4:max-w-[1200px]">
-        <div className='heading font-[Audiowide] text-[30px] sm:text-[40px] md2:text-[50px] leading-[120%] uppercase'>Inspired by Difference, Motivated by Inclusion</div>
-        <div className='text-[16px] sm:text-[19px] mt-6'>Discover a forward-thinking culture that doesn’t shy away from traditional qualities like respect, integrity and trust.</div>
-        <div className='text-[16px] sm:text-[19px] mt-5'>Erivan welcomes every perspective, strength, talent, belief or gender with open arms. Because when they come together, they produce extraordinary results.</div>
+        <div className='heading font-[Audiowide] sm:mx-auto sm:text-center text-[30px] sm:text-[40px] md5:text-[65px] leading-[120%] uppercase'>Inspired by Difference,<br className='hidden md5:flex'/> Motivated by Inclusion</div>
+        <div className='text-[16px] sm:text-[22px] mt-6'>Discover a forward-thinking culture that doesn’t shy away from traditional qualities like respect, integrity and trust.</div>
+        <div className='text-[16px] sm:text-[22px] mt-5'>Erivan welcomes every perspective, strength, talent, belief or gender with open arms. Because when they come together, they produce extraordinary results.</div>
         </div>
       </div>
 
@@ -104,14 +104,15 @@ let team = [
            {
             team.map((ele) =>{
               return(
-                <div key={ele.id} className='bg-form-main relative'>
-                <img src={ele.image} className='w-full  max-h-[200px] lg4:max-h-[250px] object-cover object-center sm2:h-auto grayscale' alt="team" />
+                <Link href="/template" key={ele.id} className='group bg-form-main relative block overflow-hidden'>
+                <img src={ele.image} className='w-full transition max-h-[200px] lg4:max-h-[250px] object-cover object-center sm2:h-auto grayscale group-hover:scale-110 group-hover:opacity-50' alt="team" />
                 <div className="py-5 pb-[120px] px-3">
                    <div className='text-white font-bold text-[18px]'>{ele.title}</div>
                    <div className='mt-2 text-[15px]'>{ele.desc}</div>
-                   <Link href="/template" className='absolute bottom-[22px] left-[12px] flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></Link>
+                   <div className='transition hover:-translate-y-1 absolute bottom-[22px] left-[12px] flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></div>
+                   <div className='absolute top-0 left-1/2 -translate-x-1/2 flex items-center justify-center font-[600] gap-3 bg-white text-black border border-content-main w-full rounded-b-xl px-6 py-3.5 -translate-y-full group-hover:translate-y-0 transition'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="black"/></svg></div>
                 </div>
-              </div>
+              </Link>
               )
             })
            }

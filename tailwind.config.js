@@ -30,6 +30,8 @@ module.exports = {
         md4: '846px',
         md3: '730px',
         md2: '790px',
+        lg9: '1226px',
+        lg8: '1284px',
         lg7: '1188px',
         lg6: '1294px',
         lg5: '1065px',
