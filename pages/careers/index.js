@@ -23,7 +23,7 @@ let team = [
     },
     {
       id: 3,
-      image: "/images/construction-worker.PNG",
+      image: "/images/construction-worker.png",
       title: "Construction worker",
       desc: "....",
       link: "/careers/construction-worker"
