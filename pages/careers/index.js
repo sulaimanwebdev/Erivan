@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
-import ScrollToTop from '../../components/ScrollToTop';
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function Careers() {
 let team = [
@@ -11,22 +11,22 @@ let team = [
       image: "/images/athena-worker.png",
       title: "Line and Antenna Worker",
       desc: "Linemen install lines and antennas for major carriers’ cellular networks. They inspect security equipment and materials that ensure personal safety. They must be able to work at heights, on cell towers and on roofs of buildings. Linemen do physical, outdoor work.",
-      link: "/line-and-antenna-worker"
+      link: "/careers/line-and-antenna-worker"
     },
     {
       id: 2,
       image: "/images/manager.png",
       title: "Project Manager",
       desc: "Project Managers carry out the planning and preparation of timelines (schedules) in collaboration with the worksite coordinator. They manage the entire coordination of projects that have been attributed to them and are their responsibility. They check plans and contracts in order to ensure that they are in good order and conform to norms.",
-      link: "/line-and-antenna-worker"
+      link: "/careers/project-manager"
 
     },
     {
       id: 3,
-      image: "/images/worker.png",
+      image: "/images/construction-worker.PNG",
       title: "Construction worker",
       desc: "....",
-      link: "/line-and-antenna-worker"
+      link: "/careers/construction-worker"
 
     },
     {
@@ -34,7 +34,7 @@ let team = [
       image: "/images/carpenter.png",
       title: "Carpenter",
       desc: "Carpenters build shelters for telecommunications equipment as well as office space. They carry out all general construction tasks, including renovation and carpentry, as well as installation of specialized wall covering.",
-      link: "/line-and-antenna-worker"
+      link: "/careers/carpenter"
 
     },
     {
@@ -42,7 +42,7 @@ let team = [
       image: "/images/clerk.png",
       title: "Warehouse clerk",
       desc: "Warehouse clerks are responsible for all activities and functions related to general warehouse work, contributing to the efficiency of the department by carrying out order preparation, handling, and verification, as well as seeing to the loading and unloading of trucks.",
-      link: "/warehouse-clerk"
+      link: "/careers/warehouse-clerk"
     }
 
   ]
