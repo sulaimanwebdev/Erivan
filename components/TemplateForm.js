@@ -36,7 +36,7 @@ const TemplateForm = () => {
 
 
          <div className='mt-7'>
-            <div className='text-white font-[600] mb-2 flex'>Résumé | CV <span className='text-[#FF5757] ml-[2px]'>*</span></div>
+            <div className='text-white font-[600] mb-2 flex'>Resume | CV <span className='text-[#FF5757] ml-[2px]'>*</span></div>
             <ResumeFileUpload/>
          </div>
 
