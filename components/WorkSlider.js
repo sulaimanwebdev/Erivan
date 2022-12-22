@@ -43,22 +43,36 @@ const WorkSlider = () => {
 
       {
         id: 4,
-        image: "/images/slider1.png",
-        text: "CENTRE BELL",
+        image: "/images/HELICO MT791 MONT-ST-GRÉGOIRE.jpg",
+        text: "HELICO MT791 MONT-ST-GRÉGOIRE",
         link: "/",
       },
 
       {
         id: 5,
-        image: "/images/slider2.png",
-        text: "MONTREAL CASINO",
+        image: "/images/MT058 HAITIAN CHURCH.png",
+        text: "MT058 HAITIAN CHURCH",
         link: "/",
       },
 
       {
         id: 6,
-        image: "/images/slider3.png",
-        text: "BTS VERDUN",
+        image: "/images/MT727 NEW SHELTER.png",
+        text: "MT727 NEW SHELTER",
+        link: "/",
+      },
+
+      {
+        id: 7,
+        image: "/images/QUEBEC CIRCUS SCHOOL.jpg",
+        text: "QUEBEC CIRCUS SCHOOL",
+        link: "/",
+      },
+
+      {
+        id: 8,
+        image: "/images/STM ANGRIGNON AND MONK.png",
+        text: "STM ANGRIGNON AND MONK",
         link: "/",
       },
 
@@ -134,7 +148,7 @@ const WorkSlider = () => {
                 <div>
                   <Link href={ele.link} className=''>
                       <img src={ele.image} className='grayscale select-none h-[230px] w-full object-cover object-center rounded-[14px]' alt="cover" />
-                      <div className="flex items-center justify-between mt-2 ">
+                      <div className="flex items-center justify-between gap-2 mt-2 ">
                       <div className='text-white font-[500] text-[19px] leading-[36px] '>{ele.text}</div>
                       <div className=''><svg width="15" height="14" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.3389 4.552L2.86287 16.028L0.977539 14.1427L12.4522 2.66667H2.33887V0H17.0055V14.6667H14.3389V4.552Z" fill="white"/></svg></div>
                       </div>

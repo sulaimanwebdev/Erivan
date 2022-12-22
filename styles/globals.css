@@ -52,3 +52,20 @@ body{
 .card-gradient{
   background: radial-gradient(32.95% 80.34% at 2.01% 0%, #64676C 0%, #18191C 100%);
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #101113;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #c2c0c0; 
+
+}
