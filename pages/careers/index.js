@@ -64,7 +64,7 @@ let team = [
           <div className='heading font-[Audiowide] text-[50px] sm3:text-[60px] sm:text-[70px] leading-[120%]'>CAREERS</div>
            <div className='max-w-[900px]'>
            <div className='text-[20px] leading-[36px] mt-5 text-white'>Are you passionated by modern solutions and evolution? We are looking for hardworking, motivated individuals driven by a sense of innovation! Are you ready for an adventure?</div>
-           <button className='mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-8'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
+           <button className='transition hover:-translate-y-1 mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-8'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
            </div>
       </div>
       </div>
@@ -118,7 +118,7 @@ let team = [
                    <div className='text-white font-bold text-[18px]'>{ele.title}</div>
                    <div className='mt-2 text-[15px]'>{ele.desc}</div>
                    <div className='transition hover:-translate-y-1 absolute bottom-[22px] left-[12px] flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></div>
-                   <div className='absolute top-0 left-1/2 -translate-x-1/2 flex items-center justify-center font-[600] gap-3 bg-white text-black border border-content-main w-full rounded-b-xl px-6 py-3.5 -translate-y-full group-hover:translate-y-0 transition'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="black"/></svg></div>
+                   <div className='hidden absolute top-[100px] left-1/2 -translate-x-1/2 md5:flex items-center justify-center font-[600] gap-3 bg-white text-black border border-content-main w-fit rounded-xl px-6 py-3.5 translate-y-[50px] group-hover:translate-y-0 transition opacity-0 group-hover:opacity-100'>SEE MORE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="black"/></svg></div>
                 </div>
               </Link>
               )

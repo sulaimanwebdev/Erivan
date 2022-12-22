@@ -119,7 +119,7 @@ export default function About() {
            <div className='max-w-[900px]'>
            <div className='text-[20px] leading-[36px] mt-5 text-white'>Founded in 1981 by Pierre Lajeunesse, the company was first known under the sole name of "Erivan". At that time, the company was working in civil engineering and construction of large-scale concrete jobs.</div>
            <div className='font-[Audiowide] text-[28px] my-8 leading-[120%] text-white'>Founded in 1981</div>
-           <button className='mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-5'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
+           <button className='transition hover:-translate-y-1 mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-5'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
            </div>
       </div>
       </div>
@@ -127,7 +127,7 @@ export default function About() {
 
 
 
-      <div className="mainCont mt-[100px] lg5:mt-[140px] flex items-start flex-col lg5:flex-row justify-center gap-12 xl:gap-[100px] lg5:gap-6">
+      <div className="mainCont mt-[100px] lg5:mt-[140px] flex lg5:items-center flex-col lg5:flex-row justify-center gap-12 xl:gap-[100px] lg5:gap-6">
         <div className='lg5:max-w-[600px]'>
         <div className='heading font-[Audiowide] text-[45px] sm3:text-[55px] lg3:text-[60px] leading-[120%]'>MORE ON<br className='hidden sm3:flex'/> OUR STORY</div>
          <div className='leading-[30px] text-[17px] mt-10'>The founder's determination to offer Erivan's client an experience that surpasses their own expectations quickly became a trademark of the company. Going above and beyond for each job, Mr. Lajeunesse's values were succesfully transmitted to his successors and became a requirement for his collaborators.<br/><br/>Furthermore, as a visionary leader, Mr. Lajeunsse's forward-thinking allowed him to remain open to learning and exploring new field of operation, thus allowing the company to constantly evolve while preserving an unblemished reputation, without ever compromising its intrinsic values.<br/><br/>In fact, when <span className='font-bold'>Eric Lajeunesse</span>, one of Mr. Lajeunesse's sons, became increasingly involved in Erivan's activities, he lead Erivan in making a judicious shift into the telecommunications field.<br/><br/>Thanks to the increased skills, along with a solid and established experience, Erivan was able to match the high standards required by the industry. </div>
