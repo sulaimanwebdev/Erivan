@@ -22,58 +22,58 @@ const LogoSlider = () => {
     let data = [
       {
         id: 1,
-        image: "/images/logo1.png",
+        image: "/images/logos/logo1.svg",
       },
 
       {
         id: 2,
-        image: "/images/logo2.png",
+        image: "/images/logos/logo2.svg",
       },
 
       {
         id: 3,
-        image: "/images/logo3.png",
+        image: "/images/logos/logo3.svg",
       },
 
       {
         id: 4,
-        image: "/images/logo4.png",
+        image: "/images/logos/logo4.svg",
       },
 
       {
         id: 5,
-        image: "/images/logo5.png",
+        image: "/images/logos/logo5.svg",
       },
 
       {
         id: 6,
-        image: "/images/logo6.png",
+        image: "/images/logos/logo6.svg",
       },
 
       {
         id: 7,
-        image: "/images/logo7.png",
+        image: "/images/logos/logo7.svg",
       },
 
       {
         id: 8,
-        image: "/images/logo8.png",
+        image: "/images/logos/logo8.svg",
       },
 
 
       {
         id: 9,
-        image: "/images/logo9.png",
+        image: "/images/logos/logo9.svg",
       },
 
       {
         id: 10,
-        image: "/images/logo10.png",
+        image: "/images/logos/logo10.svg",
       },
 
       {
         id: 11,
-        image: "/images/logo11.png",
+        image: "/images/logos/logo11.svg",
       },
 
      
@@ -145,7 +145,7 @@ const LogoSlider = () => {
                 className='transition rounded-lg block overflow-hidden relative'
               >
                 <div className='flex items-center justify-center flex-col text-center'>
-                  <img src={ele.image} alt="logo" className='select-none' />
+                  <img src={ele.image} alt="logo" className="grayscale select-none max-w-[200px] max-h-[50px]" />
                     <div className='text-white font-[600] text-[18px] mt-3 select-none'>{ele.title}</div>
                     <div classNamem='mt-2 select-none'>{ele.date}</div>
                 </div>

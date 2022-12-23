@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Head from 'next/head'
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -11,7 +12,7 @@ export default function About() {
       id: 1,
       image: "/images/team1.png",
       name: "ERIC LAJEUNESSE, ENG.",
-      title: "President of Erivan Gecom Group"
+      title: "President – Erivan Group"
     },
     {
       id: 2,
@@ -55,18 +56,29 @@ export default function About() {
       name: "BENJAMIN GRIMES, ENG.",
       title: "Project Manager – Major accounts"
     },
-    {
-      id: 9,
-      image: "/images/team9.png",
-      name: "ANTOINE BRODEUR, CPI",
-      title: "Project Manager"
-    },
+
     {
       id: 10,
       image: "/images/team10.png",
       name: "MATTHEW FALKINER",
       title: "Director of Operations – Ontario"
     },
+    {
+      id: 15,
+      image: "/images/team14.jpg",
+      name: "GERMAN LANDO",
+      title: "Director of Operations - Alberta"
+    },
+
+    
+
+    {
+      id: 9,
+      image: "/images/team9.png",
+      name: "ANTOINE BRODEUR, CPI",
+      title: "Project Manager"
+    },
+    
     {
       id: 11,
       image: "/images/team11.png",
@@ -87,16 +99,11 @@ export default function About() {
     },
     {
       id: 14,
-      image: "/images/team12.png",
+      image: "/images/team15.jpeg",
       name: "PASCALE CALLENDER",
       title: "HR Manager"
     },
-    {
-      id: 15,
-      image: "/images/team12.png",
-      name: "GERMAN LANDO",
-      title: "Director of Operations - Alberta"
-    },
+    
    
     
   ]
@@ -119,7 +126,7 @@ export default function About() {
            <div className='max-w-[900px]'>
            <div className='text-[20px] leading-[36px] mt-5 text-white'>Founded in 1981 by Pierre Lajeunesse, the company was first known under the sole name of "Erivan". At that time, the company was working in civil engineering and construction of large-scale concrete jobs.</div>
            <div className='font-[Audiowide] text-[28px] my-8 leading-[120%] text-white'>Founded in 1981</div>
-           <button className='transition hover:-translate-y-1 mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-5'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></button>
+           <Link href="/careers" className='w-fit transition hover:-translate-y-1 mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-6 py-3.5 mt-5'>JOIN THE ADVENTURE <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.172 6.99992L6.808 1.63592L8.222 0.221924L16 7.99992L8.222 15.7779L6.808 14.3639L12.172 8.99992H0V6.99992H12.172Z" fill="white"/></svg></Link>
            </div>
       </div>
       </div>
@@ -135,8 +142,9 @@ export default function About() {
 
         <div className="bg-dark2-main rounded-[24px] p-6 lg5:max-w-[550px] lg5:min-w-[550px]">
           <div className="relative w-full h-full flex items-center justify-center">
-          <img src="/images/video.png" className='mx-auto w-full max-w-[600px]' alt="video" />
-          <button className='bg-dark-main rounded-full flex items-center justify-center min-w-[60px] min-h-[60px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10'><svg width="19" height="20" className='translate-x-[2px]' viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 14.4641C21.1667 12.9245 21.1667 9.0755 18.5 7.5359L6.5 0.607693C3.83333 -0.931908 0.5 0.992596 0.5 4.0718V17.9282C0.5 21.0074 3.83333 22.9319 6.5 21.3923L18.5 14.4641Z" fill="white"/></svg></button>
+          {/* <img src="/images/video.png" className='mx-auto w-full max-w-[600px]' alt="video" /> */}
+          <video src="/images/video.mp4" controls controlsList="nodownload" className='mx-auto w-full max-w-[600px] rounded-[24px]'></video>
+          {/* <button className='bg-dark-main rounded-full flex items-center justify-center min-w-[60px] min-h-[60px] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10'><svg width="19" height="20" className='translate-x-[2px]' viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 14.4641C21.1667 12.9245 21.1667 9.0755 18.5 7.5359L6.5 0.607693C3.83333 -0.931908 0.5 0.992596 0.5 4.0718V17.9282C0.5 21.0074 3.83333 22.9319 6.5 21.3923L18.5 14.4641Z" fill="white"/></svg></button> */}
           </div>
 
           <div className='mt-7'>
@@ -183,7 +191,7 @@ export default function About() {
             team.map((ele) =>{
               return(
                 <div key={ele.id} className='bg-form-main'>
-                <img src={ele.image} className='w-full h-[250px] object-cover object-top sm2:h-auto grayscale' alt="team" />
+                <img src={ele.image} className='w-full h-[250px] object-cover object-center sm2:h-[300px] grayscale' alt="team" />
                 <div className="text-center py-5 px-3">
                    <div className='text-white font-bold text-[17px]'>{ele.name}</div>
                    <div className='mt-2'>{ele.title}</div>

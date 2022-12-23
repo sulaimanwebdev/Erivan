@@ -51,31 +51,109 @@ const CausesSlider = () => {
 
       {
         id: 5,
-        image: "/images/cause1.png",
-        title: "Fondation Jean-Neveu",
-        date: "Since 2011",
+        image: "/images/Fondation/Action Sport Physio.png",
+        title: "Action Sport Physio",
+        date: "Since 1965",
+        big_image: true,
       },
+
 
       {
         id: 6,
-        image: "/images/cause2.png",
-        title: "Cause pour la Cause",
-        date: "Since 2017",
+        image: "/images/Fondation/au-second-lieu-logo-220x75-01.svg",
+        title: "Au Second Lieu",
+        date: "Since 1965",
+        big_image: true,
       },
 
       {
         id: 7,
-        image: "/images/cause3.png",
-        title: "Fondation St-Paul",
-        date: "Since 2010",
+        image: "/images/Fondation/BCC_LOGO_HZ_FC_POS_CMYK_TM_EN1.png",
+        title: "BCC",
+        date: "Since 1965",
+        big_image: true,
       },
+
 
       {
         id: 8,
-        image: "/images/cause4.png",
-        title: "Optimist Club",
+        image: "/images/Fondation/Centraide_United_Way_Canada_horizontal.png",
+        title: "Centraide United",
         date: "Since 1965",
+        big_image: true,
       },
+
+
+      {
+        id: 9,
+        image: "/images/Fondation/Fondation Eulalie-Durocher.png",
+        title: "Fondation Eulalie-Durocher",
+        date: "Since 1965",
+        big_image: true,
+      },
+
+      {
+        id: 10,
+        image: "/images/Fondation/Fondation Hopital Charles-Lemoyne.png",
+        title: "Fondation Hopital",
+        date: "Since 1965",
+        big_image: true,
+      },
+
+      {
+        id: 11,
+        image: "/images/Fondation/Fondation-Charles-Bruneau_logo_RGB.png",
+        title: "Fondation Charles Bruneau",
+        date: "Since 1965",
+        big_image: true,
+      },
+
+
+      {
+        id: 12,
+        image: "/images/Fondation/LeGrandDefi.png",
+        title: "LeGrand sDefi",
+        date: "Since 1965",
+        big_image: true,
+      },
+
+
+      {
+        id: 13,
+        image: "/images/Fondation/logo-35ans-white.png",
+        title: "35ans White",
+        date: "Since 1965",
+        big_image: true,
+      },
+
+      {
+        id: 14,
+        image: "/images/Fondation/Pierre-Boucher.png",
+        title: "Pierre Boucher",
+        date: "Since 1965",
+        big_image: true,
+      },
+
+
+      {
+        id: 15,
+        image: "/images/Fondation/share.png",
+        title: "Share",
+        date: "Since 1965",
+        big_image: true,
+      },
+
+
+      {
+        id: 16,
+        image: "/images/Fondation/Telus.png",
+        title: "Telus",
+        date: "Since 1965",
+        big_image: true,
+      },
+
+
+      
 
      
     ];
@@ -146,8 +224,8 @@ const CausesSlider = () => {
                 key={ele.id}
                 className='transition rounded-lg block overflow-hidden relative'
               >
-                <div className='flex items-center justify-center flex-col text-center'>
-                  <img src={ele.image} alt="logo" className='select-none' />
+                <div className='flex flex-col text-center'>
+                  <img src={ele.image} alt="logo" className={`select-none mx-auto ${ele.big_image && ele.big_image === true ? "w-[230px]" : ""}`} />
                     <div className='text-white font-[600] text-[18px] mt-3 select-none'>{ele.title}</div>
                     <div classNamem='mt-2 select-none'>{ele.date}</div>
                 </div>
