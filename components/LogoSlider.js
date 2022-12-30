@@ -147,7 +147,7 @@ const LogoSlider = () => {
                 <div className='flex items-center justify-center flex-col text-center'>
                   <img src={ele.image} alt="logo" className="grayscale select-none max-w-[200px] max-h-[50px]" />
                     <div className='text-white font-[600] text-[18px] mt-3 select-none'>{ele.title}</div>
-                    <div classNamem='mt-2 select-none'>{ele.date}</div>
+                    <div className='mt-2 select-none'>{ele.date}</div>
                 </div>
               </SwiperSlide>
             );

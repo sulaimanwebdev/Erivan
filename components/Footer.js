@@ -1,6 +1,18 @@
 import Link from 'next/link'
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+import imb from "../i18n";
 
 const Footer = () => {
+
+  const { t } = useTranslation();
+  const changelangauefunc = () => {
+    imb.changeLanguage("fr");
+  };
+  const changelangauefuncc = () => {
+    imb.changeLanguage("en");
+  };
+
   return (
     <>
     <div className="bg-black w-full mt-[100px]">
@@ -20,11 +32,11 @@ const Footer = () => {
                 <div>
                     <div className='text-white font-[700] text-[20px] mb-5'>Pages</div>
                     <div className='flex flex-col gap-2.5'>
-                      <Link href="/" className='text-[15px] transition hover:-translate-y-[1px]'>Home</Link>
-                      <Link href="/about-us" className='text-[15px] transition hover:-translate-y-[1px]'>About Us</Link>
-                      <Link href="/experiences-&-services" className='text-[15px] transition hover:-translate-y-[1px]'>Experiences & Services</Link>
-                      <Link href="/careers" className='text-[15px] transition hover:-translate-y-[1px]'>Careers</Link>
-                      <Link href="/our-involvement" className='text-[15px] transition hover:-translate-y-[1px]'>Our Involvement</Link>
+                      <Link href="/" className='text-[15px] transition hover:-translate-y-[1px]'>{t("home")}</Link>
+                      <Link href="/about-us" className='text-[15px] transition hover:-translate-y-[1px]'>{t("about")}</Link>
+                      <Link href="/experiences-&-services" className='text-[15px] transition hover:-translate-y-[1px]'>{t("ex")}</Link>
+                      <Link href="/careers" className='text-[15px] transition hover:-translate-y-[1px]'>{t("ca")}</Link>
+                      <Link href="/our-involvement" className='text-[15px] transition hover:-translate-y-[1px]'>{t("in")}</Link>
                       <Link href="/contact-us" className='text-[15px] transition hover:-translate-y-[1px]'>Contact</Link>
                     </div>
                 </div>
