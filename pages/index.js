@@ -445,47 +445,47 @@ export default function Home() {
           <div className="overflow-x-auto hidden lg4:flex">
             <div className="mt-12 flex items-center justify-evenly lg2:justify-between flex-wrap gap-y-6 gap-x-[40px] min-w-[800px] md:min-w-auto">
               <img
-                src="/images/logos/logo1.svg"
+                src="/images/Logos/logo1.svg"
                 className="grayscale w-[200px]"
               />
               <img
-                src="/images/logos/logo2.svg"
+                src="/images/Logos/logo2.svg"
                 className="grayscale w-[160px]"
               />
               <img
-                src="/images/logos/logo3.svg"
+                src="/images/Logos/logo3.svg"
                 className="grayscale w-[200px]"
               />
               <img
-                src="/images/logos/logo4.svg"
+                src="/images/Logos/logo4.svg"
                 className="grayscale w-[100px]"
               />
               <img
-                src="/images/logos/logo5.svg"
+                src="/images/Logos/logo5.svg"
                 className="grayscale w-[170px]"
               />
               <img
-                src="/images/logos/logo6.svg"
+                src="/images/Logos/logo6.svg"
                 className="grayscale w-[170px]"
               />
               <img
-                src="/images/logos/logo7.svg"
+                src="/images/Logos/logo7.svg"
                 className="grayscale w-[200px]"
               />
               <img
-                src="/images/logos/logo8.svg"
+                src="/images/Logos/logo8.svg"
                 className="grayscale w-[200px]"
               />
               <img
-                src="/images/logos/logo9.svg"
+                src="/images/Logos/logo9.svg"
                 className="grayscale w-[200px]"
               />
               <img
-                src="/images/logos/logo10.svg"
+                src="/images/Logos/logo10.svg"
                 className="grayscale w-[200px]]"
               />
               <img
-                src="/images/logos/logo11.svg"
+                src="/images/Logos/logo11.svg"
                 className="grayscale w-[200px]"
               />
             </div>

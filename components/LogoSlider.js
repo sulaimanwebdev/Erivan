@@ -22,58 +22,58 @@ const LogoSlider = () => {
     let data = [
       {
         id: 1,
-        image: "/images/logos/logo1.svg",
+        image: "/images/Logos/logo1.svg",
       },
 
       {
         id: 2,
-        image: "/images/logos/logo2.svg",
+        image: "/images/Logos/logo2.svg",
       },
 
       {
         id: 3,
-        image: "/images/logos/logo3.svg",
+        image: "/images/Logos/logo3.svg",
       },
 
       {
         id: 4,
-        image: "/images/logos/logo4.svg",
+        image: "/images/Logos/logo4.svg",
       },
 
       {
         id: 5,
-        image: "/images/logos/logo5.svg",
+        image: "/images/Logos/logo5.svg",
       },
 
       {
         id: 6,
-        image: "/images/logos/logo6.svg",
+        image: "/images/Logos/logo6.svg",
       },
 
       {
         id: 7,
-        image: "/images/logos/logo7.svg",
+        image: "/images/Logos/logo7.svg",
       },
 
       {
         id: 8,
-        image: "/images/logos/logo8.svg",
+        image: "/images/Logos/logo8.svg",
       },
 
 
       {
         id: 9,
-        image: "/images/logos/logo9.svg",
+        image: "/images/Logos/logo9.svg",
       },
 
       {
         id: 10,
-        image: "/images/logos/logo10.svg",
+        image: "/images/Logos/logo10.svg",
       },
 
       {
         id: 11,
-        image: "/images/logos/logo11.svg",
+        image: "/images/Logos/logo11.svg",
       },
 
      

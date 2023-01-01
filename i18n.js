@@ -9,6 +9,7 @@ i18n.use(initReactI18next).init({
       translation: {
         langEN: "<span className='font-[900]'>EN</span>",
         langFR: "<span>FR</span>",
+        since: "Since",
         home: "Home",
         about: "About Us",
         ex: "Experiences & Services",
@@ -379,6 +380,7 @@ i18n.use(initReactI18next).init({
       translation: {
         langEN: "<span>EN</span>",
         langFR: "<span className='font-[900]'>FR</span>",
+        since: "Depuis",
         home: "Accueil",
         about: "À Propos",
         ex: "Expériences Et Services",
