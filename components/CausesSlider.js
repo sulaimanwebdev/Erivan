@@ -22,78 +22,79 @@ const CausesSlider = () => {
   let data = [
     {
       id: 1,
-      title: "Fondation Jean-Neveu",
+      title: "Action Sport Physio",
       date: "2011",
     },
 
     {
       id: 2,
-      title: "Cause pour la Cause",
+      title: "AU Second LIEU",
       date: "2017",
     },
 
     {
       id: 3,
-      title: "Fondation St-Paul",
+      title: "Club",
       date: "2010",
     },
 
     {
       id: 4,
-      title: "Optimist Club",
+      title: "Centraide United Way",
       date: "1965",
     },
 
     {
       id: 5,
-      title: "Action Sport Physio",
+      title: "Le Grand Defi",
       date: "1965",
-      bell: true,
-      big_image: true,
+      defi: true,
+      
     },
 
     {
       id: 6,
-      title: "Au Second Lieu",
+      title: "Eulalie-Durocher",
       date: "1965",
     },
 
     {
       id: 7,
-      title: "BCC",
+      title: "Hopital Charles-LeMoyne",
       date: "1965",
-      big_image: true,
+      small_image: true,
+      
     },
 
     {
       id: 8,
-      title: "Centraide United",
+      title: "Charles Bruneau",
       date: "1965",
-      big_image: true,
+      
     },
 
     {
       id: 9,
-      title: "Fondation Eulalie-Durocher",
+      title: "3nfant 5oleil",
       date: "1965",
-      big_image: true,
+      
     },
 
     {
       id: 10,
-      title: "Fondation Hopital",
+      title: "Fondation Pierre",
       date: "1965",
     },
 
     {
       id: 11,
-      title: "Fondation Charles Bruneau",
+      title: "Source Bleue",
       date: "1965",
     },
 
     {
       id: 12,
-      title: "LeGrand sDefi",
+      title: "Fondation TELUS",
       date: "1965",
     },
 
@@ -203,12 +204,13 @@ const CausesSlider = () => {
                   src={`/images/Causes/logo${ele.id}.png`}
                   alt="logo"
                   className={`select-none mx-auto ${
-                    ele.big_image && ele.big_image === true ? "w-[230px]" : ""
+                    ele.defi && ele.defi === true ? "w-[80px]" : "w-[150px]"
                   }
-                
+
                   ${
-                    ele.bell && ele.bell === true ? "w-[130px]" : ""
+                    ele.small_image && ele.small_image === true ? "min-w-[230px]" : "w-[150px]"
                   }
+
                   `}
                 />
                 <div className="text-white font-[600] text-[18px] mt-3 select-none">
