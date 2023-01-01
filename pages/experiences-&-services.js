@@ -14,7 +14,8 @@ export default function ExperiencesServices() {
       </Head>
 
       <div className="bg-dark-main text-content-main">
-        <Header />
+      <Header page="Services"/>
+
 
         <div className="relative w-full">
           <img

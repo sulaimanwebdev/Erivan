@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -14,7 +15,8 @@ export default function ContactUs() {
       </Head>
 
       <div className="bg-dark-main text-content-main">
-        <Header />
+      <Header page="Contact"/>
+
 
         <div className="relative w-full">
           <img

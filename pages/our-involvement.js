@@ -8,6 +8,8 @@ import ScrollToTop from "../components/ScrollToTop";
 import { useTranslation } from "react-i18next";
 export default function OurInvolvement() {
   const { t } = useTranslation();
+
+  
   return (
     <>
       <Head>
@@ -15,7 +17,8 @@ export default function OurInvolvement() {
       </Head>
 
       <div className="bg-dark-main text-content-main">
-        <Header />
+      <Header page="Involvement"/>
+
 
         <div className="relative w-full">
           <img

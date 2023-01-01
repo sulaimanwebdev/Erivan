@@ -1,3 +1,4 @@
+import {useState, useEffect} from "react";
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/Header";
@@ -10,15 +11,16 @@ import parse from 'html-react-parser';
 
 export default function Home() {
   const { t, i18n } = useTranslation();
-
+  
   return (
     <>
       <Head>
         <title>Erivan</title>
       </Head>
 
+
       <div className="bg-dark-main text-content-main">
-        <Header home={true}/>
+        <Header page="Home"/>
 
         <div className="mainCont relative h-[450px] sm3:h-[500px] md:h-[700px] flex items-center justify-start">
           <div className="z-10 lg:translate-x-20">

@@ -85,18 +85,21 @@ export default function About() {
       name: t("aboutpersonetwelname"),
       title: t("aboutpersonetweldesgination"),
     },
-    {
-      id: 12,
-      image: "/images/team12.png",
-      name: t("aboutpersonethirtyname"),
-      title: t("aboutpersonethirtydesgination"),
-    },
+    
     {
       id: 13,
       image: "/images/team13.png",
       name: t("aboutpersonefourtheenname"),
       title: t("aboutpersonefourtheendesgination"),
     },
+
+    {
+      id: 12,
+      image: "/images/team12.png",
+      name: t("aboutpersonethirtyname"),
+      title: t("aboutpersonethirtydesgination"),
+    },
+    
     {
       id: 14,
       image: "/images/team15.jpeg",
@@ -111,7 +114,8 @@ export default function About() {
       </Head>
 
       <div className="bg-dark-main text-content-main">
-        <Header />
+      <Header page="About"/>
+
 
         <div className="relative w-full">
           <img
@@ -125,7 +129,7 @@ export default function About() {
           <div className="gradient-bg2 absolute top-0 left-0 w-full h-full"></div>
           <div className="mainCont relative z-10 flex items-center justify-center flex-col text-center h-auto py-[80px]">
             <div className="heading font-[Audiowide] text-[50px] sm3:text-[60px] sm:text-[70px] leading-[120%]">
-              {t("about")}
+              {t("aboutTitle")}
             </div>
             <div className="max-w-[900px]">
               <div className="text-[20px] leading-[36px] mt-5 text-white">

@@ -59,7 +59,7 @@ export default function Careers() {
       </Head>
 
       <div className="bg-dark-main text-content-main">
-        <Header />
+      <Header page="Careers"/>
 
         <div className="relative w-full">
           <img
@@ -125,7 +125,7 @@ export default function Careers() {
 
         <div className="bg-dark2-main pb-[20px] sm:pb-0 w-full mt-[140px] sm:h-[800px]">
           <div className="mainCont relative pt-16">
-            <div className="flex items-start lg4:justify-between flex-col lg4:flex-row gap-5">
+            <div className="flex items-start lg4:justify-between flex-col lg4:flex-row gap-5 mx-auto max-w-[1300px]">
               <div className="heading font-[Audiowide] text-[40px] md5:text-[50px] lg3:text-[60px] leading-[120%] uppercase">
                 {t("pcarr1")}
                 <br className="hidden lg3:flex" /> {t("pcarr2")}
