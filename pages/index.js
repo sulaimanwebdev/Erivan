@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
 import ScrollToTop from "../components/ScrollToTop";
-import logoSlider from "../components/logoSlider";
+import LogoSlider from "../components/LogoSlider";
 import { useTranslation } from "react-i18next";
 import parse from 'html-react-parser';
 
@@ -491,7 +491,7 @@ export default function Home() {
             </div>
           </div>
           <div className="block lg4:hidden">
-            <logoSlider />
+            <LogoSlider />
           </div>
         </div>
 
