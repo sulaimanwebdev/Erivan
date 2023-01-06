@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,20 +12,47 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   /* font-family: 'Audiowide', cursive; */
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
-#__next{
+#__next {
   overflow-x: hidden;
-
 }
 
-.mainCont{
+/* keyframe where element fades in and fades out at an bigger scalle */
+@keyframes taadaa {
+  0% {
+    /* transform: scale(0.7); */
+    opacity: 0.1;
+  }
+  /* 25% {
+    transform: scale(0.9);
+    opacity: 0.9;
+  } */
+  50% {
+    /* transform: scale(1.2); */
+    opacity: 0.5;
+  }
+  /* 75% {
+    transform: scale(0.9);
+    opacity: 0.9;
+  } */
+  100% {
+    /* transform: scale(0.7); */
+    opacity: 1;
+  }
+}
+
+.loader {
+  animation: taadaa 2s ease-in-out;
+}
+
+.mainCont {
   max-width: 1400px;
   padding-left: 25px;
   padding-right: 25px;
@@ -33,29 +60,45 @@ body{
   margin-right: auto;
 }
 
-.heading{
-  background: linear-gradient(180deg, #FFFFFF 0%, #8A8A8B 100%);
+.heading {
+  background: linear-gradient(180deg, #ffffff 0%, #8a8a8b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
 }
 
-.gradient-bg{
-  background: linear-gradient(180deg, #101113 0%, rgba(16, 17, 19, 0) 29.52%, rgba(16, 17, 19, 0.21) 49.46%, rgba(16, 17, 19, 0.76) 71.79%, #101113 100%);
+.gradient-bg {
+  background: linear-gradient(
+    180deg,
+    #101113 0%,
+    rgba(16, 17, 19, 0) 29.52%,
+    rgba(16, 17, 19, 0.21) 49.46%,
+    rgba(16, 17, 19, 0.76) 71.79%,
+    #101113 100%
+  );
 }
 
-.gradient-bg2{
-  background: linear-gradient(180deg, #101113 0%, rgba(16, 17, 19, 0.72) 50%, #101113 100%);
+.gradient-bg2 {
+  background: linear-gradient(
+    180deg,
+    #101113 0%,
+    rgba(16, 17, 19, 0.72) 50%,
+    #101113 100%
+  );
 }
 
-.card-gradient{
-  background: radial-gradient(32.95% 80.34% at 2.01% 0%, #64676C 0%, #18191C 100%);
+.card-gradient {
+  background: radial-gradient(
+    32.95% 80.34% at 2.01% 0%,
+    #64676c 0%,
+    #18191c 100%
+  );
 }
 
 ::-webkit-scrollbar {
   width: 10px;
-  height: 5px; 
+  height: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -66,6 +109,5 @@ body{
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: #c2c0c0; 
-
+  background: #c2c0c0;
 }

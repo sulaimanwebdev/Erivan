@@ -11,7 +11,7 @@ i18n.use(initReactI18next).init({
         langFR: "<span>FR</span>",
         since: "Since",
         home: "Home",
-        about: "About Us",
+        aboutUs: "About Us",
         ex: "Experiences & Services",
         ca: "Careers",
         in: "Our Involvment",
@@ -19,7 +19,8 @@ i18n.use(initReactI18next).init({
         titltwo: "TO DELIVERY.",
         titlethree: "",
         titlefour: "",
-        descone: "Where connection meets technology.<br/>Join <span className='text-white font-[900]'>Erivan</span> in its adventure.",
+        descone:
+          "Where connection meets technology.<br/>Join <span className='text-white font-[900]'>Erivan</span> in its adventure.",
         descbold: "Erivan Gecom",
         btn: "JOIN THE ADVENTURE",
         longDesc:
@@ -47,13 +48,14 @@ i18n.use(initReactI18next).init({
           "Adapting to the ever changing industry and to offer a competitive advantage, <span className='font-[900]'>Erivan opened an office in Mississauga, ON</span> to ensure a greater visibility and infiltrating the Ontario market.",
         historysix:
           "Today, the company has now reverted back to its original name, <span className='text-white font-[900]'>Erivan</span>. For more than 30 years now, it has acquired and maintained a strong reputation in the telecommunications and construction industry.<br/><br/>Furthermore, <span className='font-[900]'>Erivan opened an office in Calgary, AB</span> thus expanding the company nationally and infiltrating the Western market.",
-        
-          historysideText1: 'FOUNDED BY PIERRE LAJEUNESSE',
-          historysideText2: 'TELECOMMUNICATIONS LAUNCH',
-          historysideText3: 'NEW ASSOCIATES',
-          historysideText4: "<div className='text-gray-main'>ERIVAN GECOM GROUP</div>",
-          historysideText5: 'EXPANSION',
-          historysideText6: 'TODAY',
+
+        historysideText1: "FOUNDED BY PIERRE LAJEUNESSE",
+        historysideText2: "TELECOMMUNICATIONS LAUNCH",
+        historysideText3: "NEW ASSOCIATES",
+        historysideText4:
+          "<div className='text-gray-main'>ERIVAN GECOM GROUP</div>",
+        historysideText5: "EXPANSION",
+        historysideText6: "TODAY",
 
         client: "OUR CUSTOMERS",
         homecontact: "CONTACT US",
@@ -246,7 +248,8 @@ i18n.use(initReactI18next).init({
           "Project Managers carry out the planning and preparation of timelines (schedules) in collaboration with the worksite coordinator. They manage the entire coordination of projects that have been attributed to them and are their responsibility. They check plans and contracts in order to ensure that they are in good order and conform to norms.",
         card2btn: "SEE MORE",
         card3t: "Construction worker",
-        card3d: "The construction worker physically executes the construction projects in collaboration with the work site coordinator, while respecting construction standards.",
+        card3d:
+          "The construction worker physically executes the construction projects in collaboration with the work site coordinator, while respecting construction standards.",
         card3btn: "SEE MORE",
         card4t: "Carpenter",
         card4d:
@@ -382,7 +385,7 @@ i18n.use(initReactI18next).init({
         langFR: "<span className='font-[900]'>FR</span>",
         since: "Depuis",
         home: "Accueil",
-        about: "À Propos",
+        aboutUs: "À Propos",
         ex: "Expériences Et Services",
         ca: "Carrières",
         in: "Notre Engagement",
@@ -390,7 +393,8 @@ i18n.use(initReactI18next).init({
         titltwo: "CONCEPTION",
         titlethree: "À LA ",
         titlefour: "LIVRAISON",
-        descone: "C’est la passion pour l’innovation qui<br/> nous allume. Rejoignez <span className='text-white font-[900]'>Erivan</span> dans son<br/> aventure!",
+        descone:
+          "C’est la passion pour l’innovation qui<br/> nous allume. Rejoignez <span className='text-white font-[900]'>Erivan</span> dans son<br/> aventure!",
         desctwo: " Rejoignez Erivan dans son aventure!.",
         descbold: "Erivan",
         btn: "REJOIGNEZ L'AVENTURE",
@@ -419,12 +423,13 @@ i18n.use(initReactI18next).init({
           "S'adaptant à l'évolution constante de l'industrie, <span className='font-[900]'>Erivan a ouvert un bureau à Mississauga, ON</span> afin d'assurer une plus grande visibilité et de s'infiltrer dans le marché ontarien.",
         historysix:
           "Aujourd'hui, l'entreprise a repris son nom d'origine, <span className='font-[900]'>Erivan</span>. Depuis plus de 30 ans maintenant, elle a acquis et maintenu une solide réputation dans le secteur des télécommunications et de la construction.<br/><br/> De plus, <span className='font-[900]'>Erivan a ouvert un bureau à Calgary, en Alberta<span/>, ce qui lui a permis de s'étendre à l'échelle nationale.",
-        
-        historysideText1: 'FONDÉE PAR PIERRE LAJEUNESSE',
-        historysideText2: 'TÉLÉCOMMUNICATIONS ',
-        historysideText3: 'NOUVEAUX ASSOCIÉS',
-        historysideText4: "<div className='text-gray-main'>GROUPE ERIVAN GECOM</div>",
-        historysideText5: 'EXPANSION',
+
+        historysideText1: "FONDÉE PAR PIERRE LAJEUNESSE",
+        historysideText2: "TÉLÉCOMMUNICATIONS ",
+        historysideText3: "NOUVEAUX ASSOCIÉS",
+        historysideText4:
+          "<div className='text-gray-main'>GROUPE ERIVAN GECOM</div>",
+        historysideText5: "EXPANSION",
         historysideText6: "AUJOURD'HUI",
 
         client: "NOS CLIENTS",
@@ -476,8 +481,7 @@ i18n.use(initReactI18next).init({
         aboutpersontwoname: "MARTIN HINCE, ING.",
         aboutpersontwodesgination: "VP Opérations – Associé",
         aboutpersonthreename: "FRANÇOIS GAGNÉ, ING.",
-        aboutpersonthreedesgination:
-          "PDG branches de l’Ontario et de l’Ouest",
+        aboutpersonthreedesgination: "PDG branches de l’Ontario et de l’Ouest",
         aboutpersonfourname: "MICHEL AUMAIS",
         aboutpersonfourdesgination: "Chargé de projets – Associé",
         aboutpersonfivename: "JONATHAN SAUVAGEAU, ING.",
@@ -485,7 +489,7 @@ i18n.use(initReactI18next).init({
         aboutpersonsixname: "OLIVIER LAJEUNESSE, ING.",
         aboutpersonsixdesgination: "Chargé de projets – Comptes majeurs",
         aboutpersonsevenname: "JONATHAN BERTHIAUME",
-        aboutpersonsevendesgination: "(Chargé de projets – Comptes majeurs",
+        aboutpersonsevendesgination: "Chargé de projets – Comptes majeurs",
         aboutpersoneightname: "BENJAMIN GRIMES, ING.",
         aboutpersoneightdesgination: "Chargé de projets – Comptes majeurs",
         aboutpersonninename: "MATTHEW FALKINER",
@@ -495,11 +499,12 @@ i18n.use(initReactI18next).init({
         aboutpersonelvenname: "Antoine Brodeur, JR. ENG.",
         aboutpersonelvendesgination: "Chargé de projets",
         aboutpersonetwelname: "SAMUEL PLANTE",
-        aboutpersonetweldesgination: "(Chargé de projets",
+        aboutpersonetweldesgination: "Chargé de projets",
         aboutpersonethirtyname: "NIKOLA PETROVIC",
         aboutpersonethirtydesgination: "Coordonnateur Santé et Sécurité",
         aboutpersonefourtheenname: "MARIE-ANDRÉE SÉVIGNY",
-        aboutpersonefourtheendesgination: "(Directrice Administration et Finance",
+        aboutpersonefourtheendesgination:
+          "Directrice Administration et Finance",
         aboutpersonefithtennname: "PASCALE CALLENDER, CRIA",
         aboutpersonefithtenndesgination: "Directrice RH",
         experienceheadingone: "EXPÉRIENCES ET ",
@@ -618,7 +623,8 @@ i18n.use(initReactI18next).init({
           "Le chargé de projet a pour fonction la planification et la préparation des échéanciers en collaboration avec le coordonnateur de chantiers. Il assure la coordination complète des projets qui lui sont attribués et sous sa responsabilité. Il vérifie les plans et les contrats afin de s’assurer que tout soit conforme",
         card2btn: "POSTULER",
         card3t: "Journalier/journalière en construction",
-        card3d: "L’ouvrier de construction réalise physiquement les projets de construction en collaboration avec le coordonnateur du site de travail, tout en respectant les normes de construction.",
+        card3d:
+          "L’ouvrier de construction réalise physiquement les projets de construction en collaboration avec le coordonnateur du site de travail, tout en respectant les normes de construction.",
         card3btn: "POSTULER",
         card4t: "Menuisier/menuisière",
         card4d:

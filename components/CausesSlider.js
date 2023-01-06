@@ -49,7 +49,6 @@ const CausesSlider = () => {
       title: "Le Grand Defi",
       date: "1965",
       defi: true,
-      
     },
 
     {
@@ -63,21 +62,18 @@ const CausesSlider = () => {
       title: "Hopital Charles-LeMoyne",
       date: "1965",
       small_image: true,
-      
     },
 
     {
       id: 8,
       title: "Charles Bruneau",
       date: "1965",
-      
     },
 
     {
       id: 9,
       title: "3nfant 5oleil",
       date: "1965",
-      
     },
 
     {
@@ -97,7 +93,26 @@ const CausesSlider = () => {
       title: "Fondation TELUS",
       date: "1965",
     },
-
+    {
+      id: 13,
+      title: "Fondation TELUS",
+      date: "1965",
+    },
+    {
+      id: 14,
+      title: "Fondation TELUS",
+      date: "1965",
+    },
+    {
+      id: 15,
+      title: "Fondation TELUS",
+      date: "1965",
+    },
+    {
+      id: 16,
+      title: "Fondation TELUS",
+      date: "1965",
+    },
   ];
 
   return (
@@ -208,7 +223,9 @@ const CausesSlider = () => {
                   }
 
                   ${
-                    ele.small_image && ele.small_image === true ? "min-w-[230px]" : "w-[150px]"
+                    ele.small_image && ele.small_image === true
+                      ? "min-w-[230px]"
+                      : "w-[150px]"
                   }
 
                   `}
@@ -216,7 +233,9 @@ const CausesSlider = () => {
                 <div className="text-white font-[600] text-[18px] mt-3 select-none">
                   {ele.title}
                 </div>
-                <div className="mt-2 select-none">{t("since")} {ele.date}</div>
+                <div className="mt-2 select-none">
+                  {t("since")} {ele.date}
+                </div>
               </div>
             </SwiperSlide>
           );

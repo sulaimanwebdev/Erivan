@@ -1,12 +1,49 @@
 import CoverLetterFileUpload from "./CoverLetterFileUpload";
 import ResumeFileUpload from "./ResumeFileUpload";
 import { useTranslation } from "react-i18next";
+import { useRef, useState } from "react";
 
 const TemplateForm = () => {
   const { t } = useTranslation();
+  const [coverLetterFile, setCoverLetterFile] = useState(null);
+  const [resumeFile, setResumeFile] = useState(null);
+  const [fileUploading, setFileUploading] = useState(false);
+
+  //refs
+  const firstNameRef = useRef();
+  const lastNameRef = useRef();
+  const phoneNumberRef = useRef();
+  const emailAddressRef = useRef();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const firstName = firstNameRef.current.value;
+    const lastName = lastNameRef.current.value;
+    const phone = phoneNumberRef.current.value;
+    const email = emailAddressRef.current.value;
+
+    const res = await fetch("/api/send-attachments-mail", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        firstName,
+        lastName,
+        phone,
+        email,
+        coverLetterFile,
+        resumeFile,
+      }),
+    });
+
+    const data = await res.json();
+    console.log(data);
+  };
+
   return (
     <>
-      <form>
+      <form onSubmit={(e) => handleSubmit(e)}>
         <div className="">
           <label
             htmlFor="first-name"
@@ -18,6 +55,7 @@ const TemplateForm = () => {
           <div className="grid grid-cols-2 gap-3 sm9:gap-5">
             <div>
               <input
+                ref={firstNameRef}
                 type="text"
                 placeholder="First name"
                 autoComplete="off"
@@ -29,6 +67,7 @@ const TemplateForm = () => {
 
             <div>
               <input
+                ref={lastNameRef}
                 type="test"
                 placeholder="Last name"
                 autoComplete="off"
@@ -49,6 +88,7 @@ const TemplateForm = () => {
             <span className="text-[#FF5757] ml-[2px]">*</span>
           </label>
           <input
+            ref={phoneNumberRef}
             type="text"
             placeholder="Phone number"
             autoComplete="off"
@@ -67,6 +107,7 @@ const TemplateForm = () => {
             <span className="text-[#FF5757] ml-[2px]">*</span>
           </label>
           <input
+            ref={emailAddressRef}
             type="email"
             placeholder="Email address"
             autoComplete="off"
@@ -80,7 +121,10 @@ const TemplateForm = () => {
           <div className="text-white font-[600] mb-2 flex">
             {t("contactFirstCoverletter")}
           </div>
-          <CoverLetterFileUpload />
+          <CoverLetterFileUpload
+            setCoverLetterFile={setCoverLetterFile}
+            setFileUploading={setFileUploading}
+          />
         </div>
 
         <div className="mt-7">
@@ -88,14 +132,18 @@ const TemplateForm = () => {
             {t("contactFirstCV")}
             <span className="text-[#FF5757] ml-[2px]">*</span>
           </div>
-          <ResumeFileUpload />
+          <ResumeFileUpload
+            setResumeFile={setResumeFile}
+            setFileUploading={setFileUploading}
+          />
         </div>
 
         <button
+          disabled={fileUploading}
           type="submit"
           className="transition hover:-translate-y-1 mx-auto flex items-center font-[600] gap-3 text-white border border-content-main rounded-full px-10 py-3 mt-7"
         >
-           {t("contactFirstsubmit")}
+          {t("contactFirstsubmit")}
           <svg
             width="16"
             height="16"

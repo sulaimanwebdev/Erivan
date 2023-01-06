@@ -1,14 +1,52 @@
 import { useTranslation } from "react-i18next";
+import { useRef } from "react";
+
 const ContactForm = () => {
   const { t } = useTranslation();
+  // refs
+  const nameRef = useRef();
+  const emailRef = useRef();
+  const messageRef = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const name = nameRef.current.value;
+    const email = emailRef.current.value;
+    const message = messageRef.current.value;
+
+    if (name && email && message) {
+      const data = {
+        name,
+        email,
+        message,
+      };
+
+      fetch("/api/send-mail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      })
+        .then((res) =>
+          // console.log(res.json());
+          res.json()
+        )
+        .then((data) => {
+          console.log(data);
+        });
+    }
+  };
   return (
     <>
-      <form>
+      <form onSubmit={(e) => handleSubmit(e)}>
         <div>
           <label htmlFor="name" className="text-white font-[600] mb-2 flex">
             {t("homeconactname")}
           </label>
           <input
+            ref={nameRef}
             type="text"
             placeholder={t("homeconactname")}
             autoComplete="off"
@@ -23,6 +61,7 @@ const ContactForm = () => {
             {t("homeconactemail")}
           </label>
           <input
+            ref={emailRef}
             type="email"
             placeholder={t("homeconactemailPlaceHolder")}
             autoComplete="off"
@@ -37,6 +76,7 @@ const ContactForm = () => {
             {t("homeconactcomment")}
           </label>
           <textarea
+            ref={messageRef}
             type="message"
             placeholder={t("homeconactmessagePlaceHolder")}
             autoComplete="off"
